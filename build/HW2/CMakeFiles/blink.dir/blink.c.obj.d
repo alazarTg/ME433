@@ -1,5 +1,5 @@
 HW2/CMakeFiles/blink.dir/blink.c.obj: \
- /Users/alazartegegnework/me433/Hw/ME433/HW2/blink.c \
+ /Users/alazartegegnework/me433/hw/ME433/HW2/blink.c \
  /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
  /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
  /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/types.h \
@@ -18,9 +18,9 @@ HW2/CMakeFiles/blink.dir/blink.c.obj: \
  /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
  /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
  /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
- /Users/alazartegegnework/me433/Hw/ME433/build/generated/pico_base/pico/version.h \
+ /Users/alazartegegnework/me433/hw/ME433/build/generated/pico_base/pico/version.h \
  /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/config.h \
- /Users/alazartegegnework/me433/Hw/ME433/build/generated/pico_base/pico/config_autogen.h \
+ /Users/alazartegegnework/me433/hw/ME433/build/generated/pico_base/pico/config_autogen.h \
  /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \

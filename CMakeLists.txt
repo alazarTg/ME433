@@ -14,3 +14,5 @@ set(ME433_PATH ${PROJECT_SOURCE_DIR})
 pico_sdk_init()
 
 add_subdirectory(HW2)
+add_subdirectory(HW3)
+
