@@ -15,4 +15,5 @@ pico_sdk_init()
 
 add_subdirectory(HW2)
 add_subdirectory(HW3)
+add_subdirectory(HW4)
 

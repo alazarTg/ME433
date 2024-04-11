@@ -1111,9 +1111,9 @@ Discarded input sections
  .comment       0x00000000       0x45 CMakeFiles/blink.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/blink.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .text          0x00000000        0x0 /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//ccPvzAfi.o
- .data          0x00000000        0x0 /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//ccPvzAfi.o
- .bss           0x00000000        0x0 /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//ccPvzAfi.o
+ .text          0x00000000        0x0 /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//cc57N3Jb.o
+ .data          0x00000000        0x0 /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//cc57N3Jb.o
+ .bss           0x00000000        0x0 /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//cc57N3Jb.o
  .data          0x00000000        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-calloc.o)
@@ -1432,7 +1432,7 @@ LOAD /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-no
 .boot2          0x10000000      0x100
                 0x10000000                        __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//ccPvzAfi.o
+ .boot2         0x10000000      0x100 /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//cc57N3Jb.o
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -1996,7 +1996,7 @@ LOAD CMakeFiles/blink.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_co
 LOAD CMakeFiles/blink.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 LOAD CMakeFiles/blink.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 LOAD CMakeFiles/blink.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-LOAD /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//ccPvzAfi.o
+LOAD /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//cc57N3Jb.o
 LOAD /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -2084,7 +2084,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000053a       0x2c CMakeFiles/blink.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .ARM.attributes
-                0x00000566       0x22 /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//ccPvzAfi.o
+                0x00000566       0x22 /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//cc57N3Jb.o
  .ARM.attributes
                 0x00000588       0x1e /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
