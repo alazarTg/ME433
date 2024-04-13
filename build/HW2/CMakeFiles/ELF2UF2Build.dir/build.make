@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/alazartegegnework/me433/HW/me433
+CMAKE_SOURCE_DIR = /Users/alazartegegnework/me433/hw/ME433
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/alazartegegnework/me433/HW/me433/build
+CMAKE_BINARY_DIR = /Users/alazartegegnework/me433/hw/ME433/build
 
 # Utility rule file for ELF2UF2Build.
 
@@ -76,47 +76,47 @@ HW2/CMakeFiles/ELF2UF2Build-complete: HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2
 HW2/CMakeFiles/ELF2UF2Build-complete: HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
 HW2/CMakeFiles/ELF2UF2Build-complete: HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build
 HW2/CMakeFiles/ELF2UF2Build-complete: HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/alazartegegnework/me433/HW/me433/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'ELF2UF2Build'"
-	cd /Users/alazartegegnework/me433/HW/me433/build/HW2 && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E make_directory /Users/alazartegegnework/me433/HW/me433/build/HW2/CMakeFiles
-	cd /Users/alazartegegnework/me433/HW/me433/build/HW2 && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E touch /Users/alazartegegnework/me433/HW/me433/build/HW2/CMakeFiles/ELF2UF2Build-complete
-	cd /Users/alazartegegnework/me433/HW/me433/build/HW2 && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E touch /Users/alazartegegnework/me433/HW/me433/build/HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/alazartegegnework/me433/hw/ME433/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'ELF2UF2Build'"
+	cd /Users/alazartegegnework/me433/hw/ME433/build/HW2 && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E make_directory /Users/alazartegegnework/me433/hw/ME433/build/HW2/CMakeFiles
+	cd /Users/alazartegegnework/me433/hw/ME433/build/HW2 && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E touch /Users/alazartegegnework/me433/hw/ME433/build/HW2/CMakeFiles/ELF2UF2Build-complete
+	cd /Users/alazartegegnework/me433/hw/ME433/build/HW2 && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E touch /Users/alazartegegnework/me433/hw/ME433/build/HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-done
 
 HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build: HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/alazartegegnework/me433/HW/me433/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'ELF2UF2Build'"
-	cd /Users/alazartegegnework/me433/HW/me433/build/elf2uf2 && $(MAKE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/alazartegegnework/me433/hw/ME433/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'ELF2UF2Build'"
+	cd /Users/alazartegegnework/me433/hw/ME433/build/elf2uf2 && $(MAKE)
 
 HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure: HW2/elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt
 HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure: HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/alazartegegnework/me433/HW/me433/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'ELF2UF2Build'"
-	cd /Users/alazartegegnework/me433/HW/me433/build/elf2uf2 && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/make "-GUnix Makefiles" -S /Users/alazartegegnework/me433/Pico/pico-sdk/tools/elf2uf2 -B /Users/alazartegegnework/me433/HW/me433/build/elf2uf2
-	cd /Users/alazartegegnework/me433/HW/me433/build/elf2uf2 && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E touch /Users/alazartegegnework/me433/HW/me433/build/HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/alazartegegnework/me433/hw/ME433/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'ELF2UF2Build'"
+	cd /Users/alazartegegnework/me433/hw/ME433/build/elf2uf2 && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/make "-GUnix Makefiles" -S /Users/alazartegegnework/me433/Pico/pico-sdk/tools/elf2uf2 -B /Users/alazartegegnework/me433/hw/ME433/build/elf2uf2
+	cd /Users/alazartegegnework/me433/hw/ME433/build/elf2uf2 && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E touch /Users/alazartegegnework/me433/hw/ME433/build/HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
 
 HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download: HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-source_dirinfo.txt
 HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download: HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/alazartegegnework/me433/HW/me433/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'ELF2UF2Build'"
-	cd /Users/alazartegegnework/me433/HW/me433/build/HW2 && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E echo_append
-	cd /Users/alazartegegnework/me433/HW/me433/build/HW2 && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E touch /Users/alazartegegnework/me433/HW/me433/build/HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/alazartegegnework/me433/hw/ME433/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'ELF2UF2Build'"
+	cd /Users/alazartegegnework/me433/hw/ME433/build/HW2 && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E echo_append
+	cd /Users/alazartegegnework/me433/hw/ME433/build/HW2 && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E touch /Users/alazartegegnework/me433/hw/ME433/build/HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
 
 HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install: HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/alazartegegnework/me433/HW/me433/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'ELF2UF2Build'"
-	cd /Users/alazartegegnework/me433/HW/me433/build/elf2uf2 && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E echo_append
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/alazartegegnework/me433/hw/ME433/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'ELF2UF2Build'"
+	cd /Users/alazartegegnework/me433/hw/ME433/build/elf2uf2 && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E echo_append
 
 HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/alazartegegnework/me433/HW/me433/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'ELF2UF2Build'"
-	cd /Users/alazartegegnework/me433/HW/me433/build/HW2 && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -Dcfgdir= -P /Users/alazartegegnework/me433/HW/me433/build/HW2/elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake
-	cd /Users/alazartegegnework/me433/HW/me433/build/HW2 && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E touch /Users/alazartegegnework/me433/HW/me433/build/HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/alazartegegnework/me433/hw/ME433/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'ELF2UF2Build'"
+	cd /Users/alazartegegnework/me433/hw/ME433/build/HW2 && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -Dcfgdir= -P /Users/alazartegegnework/me433/hw/ME433/build/HW2/elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake
+	cd /Users/alazartegegnework/me433/hw/ME433/build/HW2 && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E touch /Users/alazartegegnework/me433/hw/ME433/build/HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
 
 HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch: HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch-info.txt
 HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch: HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/alazartegegnework/me433/HW/me433/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'ELF2UF2Build'"
-	cd /Users/alazartegegnework/me433/HW/me433/build/HW2 && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E echo_append
-	cd /Users/alazartegegnework/me433/HW/me433/build/HW2 && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E touch /Users/alazartegegnework/me433/HW/me433/build/HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/alazartegegnework/me433/hw/ME433/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'ELF2UF2Build'"
+	cd /Users/alazartegegnework/me433/hw/ME433/build/HW2 && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E echo_append
+	cd /Users/alazartegegnework/me433/hw/ME433/build/HW2 && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E touch /Users/alazartegegnework/me433/hw/ME433/build/HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
 
 HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update: HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update-info.txt
 HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update: HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/alazartegegnework/me433/HW/me433/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'ELF2UF2Build'"
-	cd /Users/alazartegegnework/me433/HW/me433/build/HW2 && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E echo_append
-	cd /Users/alazartegegnework/me433/HW/me433/build/HW2 && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E touch /Users/alazartegegnework/me433/HW/me433/build/HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/alazartegegnework/me433/hw/ME433/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'ELF2UF2Build'"
+	cd /Users/alazartegegnework/me433/hw/ME433/build/HW2 && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E echo_append
+	cd /Users/alazartegegnework/me433/hw/ME433/build/HW2 && /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E touch /Users/alazartegegnework/me433/hw/ME433/build/HW2/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
 
 ELF2UF2Build: HW2/CMakeFiles/ELF2UF2Build
 ELF2UF2Build: HW2/CMakeFiles/ELF2UF2Build-complete
@@ -135,10 +135,10 @@ HW2/CMakeFiles/ELF2UF2Build.dir/build: ELF2UF2Build
 .PHONY : HW2/CMakeFiles/ELF2UF2Build.dir/build
 
 HW2/CMakeFiles/ELF2UF2Build.dir/clean:
-	cd /Users/alazartegegnework/me433/HW/me433/build/HW2 && $(CMAKE_COMMAND) -P CMakeFiles/ELF2UF2Build.dir/cmake_clean.cmake
+	cd /Users/alazartegegnework/me433/hw/ME433/build/HW2 && $(CMAKE_COMMAND) -P CMakeFiles/ELF2UF2Build.dir/cmake_clean.cmake
 .PHONY : HW2/CMakeFiles/ELF2UF2Build.dir/clean
 
 HW2/CMakeFiles/ELF2UF2Build.dir/depend:
-	cd /Users/alazartegegnework/me433/HW/me433/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/alazartegegnework/me433/HW/me433 /Users/alazartegegnework/me433/HW/me433/HW2 /Users/alazartegegnework/me433/HW/me433/build /Users/alazartegegnework/me433/HW/me433/build/HW2 /Users/alazartegegnework/me433/HW/me433/build/HW2/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/alazartegegnework/me433/hw/ME433/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/alazartegegnework/me433/hw/ME433 /Users/alazartegegnework/me433/hw/ME433/HW2 /Users/alazartegegnework/me433/hw/ME433/build /Users/alazartegegnework/me433/hw/ME433/build/HW2 /Users/alazartegegnework/me433/hw/ME433/build/HW2/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : HW2/CMakeFiles/ELF2UF2Build.dir/depend
 

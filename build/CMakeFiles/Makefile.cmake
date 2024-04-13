@@ -7,17 +7,6 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/Users/alazartegegnework/me433/HW/me433/CMakeLists.txt"
-  "/Users/alazartegegnework/me433/HW/me433/HW2/CMakeLists.txt"
-  "/Users/alazartegegnework/me433/HW/me433/HW3/CMakeLists.txt"
-  "/Users/alazartegegnework/me433/HW/me433/HW4/CMakeLists.txt"
-  "CMakeFiles/3.29.0/CMakeASMCompiler.cmake"
-  "CMakeFiles/3.29.0/CMakeCCompiler.cmake"
-  "CMakeFiles/3.29.0/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.29.0/CMakeSystem.cmake"
-  "HW2/elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake"
-  "pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/PioasmBuild-mkdirs.cmake"
-  "/Users/alazartegegnework/me433/HW/me433/pico_sdk_import.cmake"
   "/Users/alazartegegnework/me433/Pico/pico-sdk/CMakeLists.txt"
   "/Users/alazartegegnework/me433/Pico/pico-sdk/cmake/Platform/PICO.cmake"
   "/Users/alazartegegnework/me433/Pico/pico-sdk/cmake/pico_pre_load_platform.cmake"
@@ -121,6 +110,18 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/alazartegegnework/me433/Pico/pico-sdk/tools/CMakeLists.txt"
   "/Users/alazartegegnework/me433/Pico/pico-sdk/tools/FindELF2UF2.cmake"
   "/Users/alazartegegnework/me433/Pico/pico-sdk/tools/FindPioasm.cmake"
+  "/Users/alazartegegnework/me433/hw/ME433/CMakeLists.txt"
+  "/Users/alazartegegnework/me433/hw/ME433/HW2/CMakeLists.txt"
+  "/Users/alazartegegnework/me433/hw/ME433/HW3/CMakeLists.txt"
+  "/Users/alazartegegnework/me433/hw/ME433/HW4/CMakeLists.txt"
+  "/Users/alazartegegnework/me433/hw/ME433/HW5/CMakeLists.txt"
+  "CMakeFiles/3.29.0/CMakeASMCompiler.cmake"
+  "CMakeFiles/3.29.0/CMakeCCompiler.cmake"
+  "CMakeFiles/3.29.0/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.29.0/CMakeSystem.cmake"
+  "HW2/elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake"
+  "pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/PioasmBuild-mkdirs.cmake"
+  "/Users/alazartegegnework/me433/hw/ME433/pico_sdk_import.cmake"
   "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeASMInformation.cmake"
   "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeCInformation.cmake"
   "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeCXXInformation.cmake"
@@ -254,6 +255,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "HW2/CMakeFiles/CMakeDirectoryInformation.cmake"
   "HW3/CMakeFiles/CMakeDirectoryInformation.cmake"
   "HW4/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "HW5/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -267,4 +269,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "HW2/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake"
   "HW3/CMakeFiles/CDC_comm.dir/DependInfo.cmake"
   "HW4/CMakeFiles/DAC_MCP4912.dir/DependInfo.cmake"
+  "HW5/CMakeFiles/main.dir/DependInfo.cmake"
   )

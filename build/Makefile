@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/alazartegegnework/me433/HW/me433
+CMAKE_SOURCE_DIR = /Users/alazartegegnework/me433/hw/ME433
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/alazartegegnework/me433/HW/me433/build
+CMAKE_BINARY_DIR = /Users/alazartegegnework/me433/hw/ME433/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/me433/build/CMakeFiles /Users/alazartegegnework/me433/HW/me433/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/hw/ME433/build/CMakeFiles /Users/alazartegegnework/me433/hw/ME433/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/me433/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/hw/ME433/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -233,6 +233,19 @@ DAC_MCP4912/fast:
 	$(MAKE) $(MAKESILENT) -f HW4/CMakeFiles/DAC_MCP4912.dir/build.make HW4/CMakeFiles/DAC_MCP4912.dir/build
 .PHONY : DAC_MCP4912/fast
 
+#=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/build
+.PHONY : main/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,6 +263,7 @@ help:
 	@echo "... DAC_MCP4912"
 	@echo "... blink"
 	@echo "... bs2_default"
+	@echo "... main"
 .PHONY : help
 
 

@@ -1542,9 +1542,9 @@ Discarded input sections
                 0x00000000       0x50 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
  .time_critical.spi_read16_blocking
                 0x00000000       0x70 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
- .text          0x00000000        0x0 /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//ccaVpjfH.o
- .data          0x00000000        0x0 /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//ccaVpjfH.o
- .bss           0x00000000        0x0 /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//ccaVpjfH.o
+ .text          0x00000000        0x0 /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//ccjYeSDi.o
+ .data          0x00000000        0x0 /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//ccjYeSDi.o
+ .bss           0x00000000        0x0 /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//ccjYeSDi.o
  .data          0x00000000        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-calloc.o)
@@ -1863,11 +1863,11 @@ LOAD /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-no
 .boot2          0x10000000      0x100
                 0x10000000                        __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//ccaVpjfH.o
+ .boot2         0x10000000      0x100 /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//ccjYeSDi.o
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x10000100     0x2e80
+.text           0x10000100     0x2e68
                 0x10000100                        __logical_binary_start = .
  *(.vectors)
  .vectors       0x10000100       0xd4 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1935,295 +1935,296 @@ LOAD /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-no
                 0x10000308       0x5c CMakeFiles/DAC_MCP4912.dir/DAC_MCP4912.c.obj
                 0x10000308                make_sin_array
  .text.startup.main
-                0x10000364       0xec CMakeFiles/DAC_MCP4912.dir/DAC_MCP4912.c.obj
+                0x10000364       0xd0 CMakeFiles/DAC_MCP4912.dir/DAC_MCP4912.c.obj
                 0x10000364                main
  .text.gpio_set_function
-                0x10000450       0x30 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000450                gpio_set_function
+                0x10000434       0x30 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000434                gpio_set_function
  .text.gpio_init
-                0x10000480       0x3c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000480                gpio_init
+                0x10000464       0x3c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000464                gpio_init
  .text.running_on_fpga
-                0x100004bc       0x10 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x100004bc                running_on_fpga
+                0x100004a0       0x10 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x100004a0                running_on_fpga
  .text.hw_claim_or_assert
-                0x100004cc       0x44 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x100004cc                hw_claim_or_assert
+                0x100004b0       0x44 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x100004b0                hw_claim_or_assert
  .text.spin_locks_reset
-                0x10000510       0x1c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x10000510                spin_locks_reset
+                0x100004f4       0x1c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x100004f4                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x1000052c       0x18 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x1000052c                next_striped_spin_lock_num
+                0x10000510       0x18 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000510                next_striped_spin_lock_num
  .text.irq_set_enabled
-                0x10000544       0x24 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000544                irq_set_enabled
+                0x10000528       0x24 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000528                irq_set_enabled
  .text.irq_get_vtable_handler
-                0x10000568       0x10 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000568                irq_get_vtable_handler
+                0x1000054c       0x10 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000054c                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x10000578       0x54 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000578                irq_set_exclusive_handler
+                0x1000055c       0x54 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000055c                irq_set_exclusive_handler
  .text.irq_remove_handler
-                0x100005cc      0x1c4 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100005cc                irq_remove_handler
+                0x100005b0      0x1c4 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100005b0                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x10000790       0xb4 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000790                irq_add_tail_to_free_list
+                0x10000774       0xb4 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000774                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x10000844       0x24 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000844                irq_init_priorities
+                0x10000828       0x24 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000828                irq_init_priorities
  .text.lock_init
-                0x10000868       0x10 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x10000868                lock_init
+                0x1000084c       0x10 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x1000084c                lock_init
  .text.mutex_init
-                0x10000878       0x1c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x10000878                mutex_init
+                0x1000085c       0x1c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x1000085c                mutex_init
  .text.recursive_mutex_init
-                0x10000894       0x1c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x10000894                recursive_mutex_init
+                0x10000878       0x1c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10000878                recursive_mutex_init
  .text.timer_pool_entry_comparator
-                0x100008b0       0x34 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x100008b0                timer_pool_entry_comparator
+                0x10000894       0x34 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000894                timer_pool_entry_comparator
  .text.sleep_until_callback
-                0x100008e4       0x30 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100008c8       0x30 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.add_alarm_under_lock.isra.0
-                0x10000914      0x100 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100008f8      0x100 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x10000a14      0x1c0 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100009f8      0x1c0 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x10000bd4       0x6c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000bd4                alarm_pool_init_default
+                0x10000bb8       0x6c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000bb8                alarm_pool_init_default
  .text.alarm_pool_add_alarm_at
-                0x10000c40      0x17c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000c40                alarm_pool_add_alarm_at
+                0x10000c24      0x17c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000c24                alarm_pool_add_alarm_at
  .text.sleep_until
-                0x10000dbc       0xc4 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000dbc                sleep_until
+                0x10000da0       0xc4 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000da0                sleep_until
  .text.sleep_ms
-                0x10000e80       0x38 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000e80                sleep_ms
+                0x10000e64       0x38 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000e64                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x10000eb8       0xcc CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000eb8                best_effort_wfe_or_timeout
+                0x10000e9c       0xcc CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000e9c                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x10000f84       0xbc CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10000f68       0xbc CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x10001040       0x18 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001040                hardware_alarm_claim
+                0x10001024       0x18 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001024                hardware_alarm_claim
  .text.time_us_64
-                0x10001058       0x14 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001058                time_us_64
+                0x1000103c       0x14 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x1000103c                time_us_64
  .text.busy_wait_until
-                0x1000106c       0x20 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x1000106c                busy_wait_until
+                0x10001050       0x20 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001050                busy_wait_until
  .text.hardware_alarm_set_callback
-                0x1000108c       0x8c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x1000108c                hardware_alarm_set_callback
+                0x10001070       0x8c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001070                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x10001118       0xd0 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001118                hardware_alarm_set_target
+                0x100010fc       0xd0 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100010fc                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x100011e8       0x3c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100011e8                hardware_alarm_cancel
+                0x100011cc       0x3c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100011cc                hardware_alarm_cancel
  .text.ph_merge_nodes
-                0x10001224       0x58 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001208       0x58 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_post_alloc_init
-                0x1000127c       0x3c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x1000127c                ph_post_alloc_init
+                0x10001260       0x3c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001260                ph_post_alloc_init
  .text.ph_merge_two_pass
-                0x100012b8       0x8c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x100012b8                ph_merge_two_pass
+                0x1000129c       0x8c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x1000129c                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x10001344      0x100 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001328      0x100 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x10001444      0x104 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001444                ph_remove_head
+                0x10001428      0x104 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001428                ph_remove_head
  .text.ph_remove_and_free_node
-                0x10001548       0x78 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001548                ph_remove_and_free_node
+                0x1000152c       0x78 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x1000152c                ph_remove_and_free_node
  .text.clocks_init
-                0x100015c0      0x2c8 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x100015c0                clocks_init
+                0x100015a4      0x2c8 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x100015a4                clocks_init
  .text.clock_get_hz
-                0x10001888        0xc CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001888                clock_get_hz
+                0x1000186c        0xc CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x1000186c                clock_get_hz
  .text.pll_init
-                0x10001894       0xa4 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x10001894                pll_init
+                0x10001878       0xa4 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x10001878                pll_init
  .text.watchdog_start_tick
-                0x10001938       0x10 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x10001938                watchdog_start_tick
+                0x1000191c       0x10 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x1000191c                watchdog_start_tick
  .text.xosc_init
-                0x10001948       0x28 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x10001948                xosc_init
+                0x1000192c       0x28 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x1000192c                xosc_init
  .text.runtime_init
-                0x10001970       0xf0 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001970                runtime_init
- .text._exit    0x10001a60        0x4 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001a60                _exit
- .text.exit     0x10001a64        0x8 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001a64                exit
- .text.panic    0x10001a6c       0x30 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001a6c                panic
+                0x10001954       0xf0 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001954                runtime_init
+ .text._exit    0x10001a44        0x4 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001a44                _exit
+ .text.exit     0x10001a48        0x8 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001a48                exit
+ .text.panic    0x10001a50       0x30 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001a50                panic
  .text.hard_assertion_failure
-                0x10001a9c        0xc CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001a9c                hard_assertion_failure
+                0x10001a80        0xc CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001a80                hard_assertion_failure
  .text._out_char
-                0x10001aa8       0x10 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10001a8c       0x10 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.weak_raw_vprintf
-                0x10001ab8       0x30 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x10001ab8                weak_raw_vprintf
- .text          0x10001ae8       0x10 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x10001a9c       0x30 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10001a9c                weak_raw_vprintf
+ .text          0x10001acc       0x10 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x10001af8       0x10 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10001af8                rom_func_lookup
+                0x10001adc       0x10 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10001adc                rom_func_lookup
  .text.rom_data_lookup
-                0x10001b08       0x10 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10001b08                rom_data_lookup
+                0x10001aec       0x10 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10001aec                rom_data_lookup
  .text.rom_funcs_lookup
-                0x10001b18       0x44 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10001b18                rom_funcs_lookup
+                0x10001afc       0x44 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10001afc                rom_funcs_lookup
  .text.__wrap___aeabi_uidiv
-                0x10001b5c       0x4c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x10001b5c                __wrap___aeabi_uidiv
-                0x10001b5c                __wrap___aeabi_uidivmod
-                0x10001b5c                div_u32u32
-                0x10001b5c                divmod_u32u32
-                0x10001b64                divmod_u32u32_unsafe
-                0x10001b8c                divmod_u32u32_savestate
+                0x10001b40       0x4c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10001b40                __wrap___aeabi_uidiv
+                0x10001b40                __wrap___aeabi_uidivmod
+                0x10001b40                div_u32u32
+                0x10001b40                divmod_u32u32
+                0x10001b48                divmod_u32u32_unsafe
+                0x10001b70                divmod_u32u32_savestate
  .text.push_r8_r11
-                0x10001ba8        0xc CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10001ba8                push_r8_r11
+                0x10001b8c        0xc CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10001b8c                push_r8_r11
  .text.pop_r8_r11
-                0x10001bb4        0xc CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10001bb4                pop_r8_r11
+                0x10001b98        0xc CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10001b98                pop_r8_r11
  .text.__wrap___aeabi_darithmetic
-                0x10001bc0       0x80 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10001bc0                __wrap___aeabi_drsub
-                0x10001bc6                __wrap___aeabi_dsub
-                0x10001bd8                __wrap___aeabi_dadd
-                0x10001bea                __wrap___aeabi_ddiv
-                0x10001c26                __wrap___aeabi_dmul
+                0x10001ba4       0x80 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10001ba4                __wrap___aeabi_drsub
+                0x10001baa                __wrap___aeabi_dsub
+                0x10001bbc                __wrap___aeabi_dadd
+                0x10001bce                __wrap___aeabi_ddiv
+                0x10001c0a                __wrap___aeabi_dmul
  .text.__wrap___aeabi_i2d
-                0x10001c40       0x38 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10001c40                __wrap___aeabi_ui2d
-                0x10001c48                __wrap___aeabi_i2d
+                0x10001c24       0x38 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10001c24                __wrap___aeabi_ui2d
+                0x10001c2c                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2iz
-                0x10001c78       0x48 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10001c78                __wrap___aeabi_d2iz
-                0x10001c78                double2int_z
+                0x10001c5c       0x48 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10001c5c                __wrap___aeabi_d2iz
+                0x10001c5c                double2int_z
  .text.fix642double
-                0x10001cc0       0x18 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10001cc0                fix642double
+                0x10001ca4       0x18 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10001ca4                fix642double
  .text.__wrap_sincostan_remainder
-                0x10001cd8       0x14 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10001cd8                sincostan_remainder
+                0x10001cbc       0x14 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10001cbc                sincostan_remainder
  .text.__wrap_sin
-                0x10001cec       0x2c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10001cec                __wrap_sin
+                0x10001cd0       0x2c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10001cd0                __wrap_sin
  .text.__aeabi_double_init
-                0x10001d18       0x98 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x10001d18                __aeabi_double_init
+                0x10001cfc       0x98 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10001cfc                __aeabi_double_init
  .text.__wrap_remquo
-                0x10001db0      0x27c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-                0x10001db0                __wrap_remquo
+                0x10001d94      0x27c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+                0x10001d94                __wrap_remquo
  .text.__wrap_remainder
-                0x1000202c       0x10 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-                0x1000202c                __wrap_remainder
+                0x10002010       0x10 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+                0x10002010                __wrap_remainder
  .text.double_table_shim_on_use_helper
-                0x1000203c       0x2c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x1000203c                double_table_shim_on_use_helper
+                0x10002020       0x2c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10002020                double_table_shim_on_use_helper
  .text.__wrap___aeabi_dsub
-                0x10002068       0x10 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10002068                drsub_shim
-                0x1000206e                dsub_shim
+                0x1000204c       0x10 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x1000204c                drsub_shim
+                0x10002052                dsub_shim
  .text.dadd_shim
-                0x10002078      0x15c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10002078                dadd_shim
+                0x1000205c      0x15c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x1000205c                dadd_shim
  .text.dmul_shim
-                0x100021d4      0x15c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x100021d4                dmul_shim
+                0x100021b8      0x15c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x100021b8                dmul_shim
  .text.ddiv_shim
-                0x10002330      0x1b0 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10002330                ddiv_shim
+                0x10002314      0x1b0 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10002314                ddiv_shim
  .text.dcordic_vec_step
-                0x100024e0        0xe CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x100024e0                dcordic_vec_step
+                0x100024c4        0xe CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x100024c4                dcordic_vec_step
  .text.dcordic_rot_step
-                0x100024ee       0x76 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x100024ee                dcordic_rot_step
+                0x100024d2       0x76 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x100024d2                dcordic_rot_step
  .text.double2int64_shim
-                0x10002564       0x1a CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10002564                double2int64_shim
-                0x10002566                double2fix64_shim
- *fill*         0x1000257e        0x2 
+                0x10002548       0x1a CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10002548                double2int64_shim
+                0x1000254a                double2fix64_shim
+ *fill*         0x10002562        0x2 
  .text.double2uint64_shim
-                0x10002580       0x70 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10002580                double2uint64_shim
-                0x10002582                double2ufix64_shim
-                0x100025a2                d2fix_a
+                0x10002564       0x70 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10002564                double2uint64_shim
+                0x10002566                double2ufix64_shim
+                0x10002586                d2fix_a
  .text.x2double_shims
-                0x100025f0       0x90 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x100025f0                uint2double_shim
-                0x100025f2                ufix2double_shim
-                0x100025f8                int2double_shim
-                0x100025fa                fix2double_shim
-                0x10002600                uint642double_shim
-                0x10002602                ufix642double_shim
-                0x10002608                int642double_shim
-                0x1000260a                fix642double_shim
+                0x100025d4       0x90 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x100025d4                uint2double_shim
+                0x100025d6                ufix2double_shim
+                0x100025dc                int2double_shim
+                0x100025de                fix2double_shim
+                0x100025e4                uint642double_shim
+                0x100025e6                ufix642double_shim
+                0x100025ec                int642double_shim
+                0x100025ee                fix642double_shim
  .text.dunpacks
-                0x10002680       0x3c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10002680                dunpacks
- .text.dreduce  0x100026bc       0x82 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x100026bc                dreduce
+                0x10002664       0x3c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10002664                dunpacks
+ .text.dreduce  0x100026a0       0x82 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x100026a0                dreduce
  .text.dsin_shim
-                0x1000273e       0x14 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x1000273e                dsin_shim
- *fill*         0x10002752        0x2 
+                0x10002722       0x14 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10002722                dsin_shim
+ *fill*         0x10002736        0x2 
  .text.dtrig_guts
-                0x10002754      0x2ec CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x1000282c                datan2_shim
+                0x10002738      0x2ec CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10002810                datan2_shim
  .text.__aeabi_lmul
-                0x10002a40       0x32 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x10002a40                __wrap___aeabi_lmul
- *fill*         0x10002a72        0x2 
+                0x10002a24       0x32 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x10002a24                __wrap___aeabi_lmul
+ *fill*         0x10002a56        0x2 
  .text.__aeabi_float_init
-                0x10002a74       0x64 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x10002a74                __aeabi_float_init
+                0x10002a58       0x64 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x10002a58                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x10002ad8       0x2c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x10002ad8                float_table_shim_on_use_helper
- .text          0x10002b04       0x10 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10002b04                __aeabi_mem_init
- .text.memset   0x10002b14        0xc CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10002b14                __wrap_memset
- .text.memcpy   0x10002b20        0xc CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10002b20                __wrap___aeabi_memcpy
-                0x10002b20                __wrap_memcpy
+                0x10002abc       0x2c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x10002abc                float_table_shim_on_use_helper
+ .text          0x10002ae8       0x10 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10002ae8                __aeabi_mem_init
+ .text.memset   0x10002af8        0xc CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10002af8                __wrap_memset
+ .text.memcpy   0x10002b04        0xc CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10002b04                __wrap___aeabi_memcpy
+                0x10002b04                __wrap_memcpy
  .text.stdio_out_chars_crlf
-                0x10002b2c       0x94 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10002b10       0x94 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_putchar
-                0x10002bc0       0x98 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10002bc0                __wrap_putchar
+                0x10002ba4       0x98 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10002ba4                __wrap_putchar
  .text.__wrap_puts
-                0x10002c58       0xe0 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10002c58                __wrap_puts
+                0x10002c3c       0xe0 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10002c3c                __wrap_puts
  .text.startup._retrieve_unique_id_on_boot
-                0x10002d38       0x10 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x10002d1c       0x10 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
  .text.flash_get_unique_id
-                0x10002d48       0x3c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-                0x10002d48                flash_get_unique_id
+                0x10002d2c       0x3c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x10002d2c                flash_get_unique_id
  .text.spi_init
-                0x10002d84      0x14c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
-                0x10002d84                spi_init
- .text.strlen   0x10002ed0       0x5c /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-strlen-stub.o)
-                0x10002ed0                strlen
+                0x10002d68      0x14c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+                0x10002d68                spi_init
+ .text.strlen   0x10002eb4       0x5c /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-strlen-stub.o)
+                0x10002eb4                strlen
  *(.fini)
- .fini          0x10002f2c        0x4 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crti.o
-                0x10002f2c                _fini
- .fini.__stub   0x10002f30       0x50 linker stubs
+ .fini          0x10002f10        0x4 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crti.o
+                0x10002f10                _fini
+ *fill*         0x10002f14        0x4 
+ .fini.__stub   0x10002f18       0x50 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -2235,90 +2236,80 @@ LOAD /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-no
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x10002f80        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x10002f80                        . = ALIGN (0x4)
+ .eh_frame      0x10002f68        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x10002f68                        . = ALIGN (0x4)
 
-.glue_7         0x10002f80        0x0
- .glue_7        0x10002f80        0x0 linker stubs
+.glue_7         0x10002f68        0x0
+ .glue_7        0x10002f68        0x0 linker stubs
 
-.glue_7t        0x10002f80        0x0
- .glue_7t       0x10002f80        0x0 linker stubs
+.glue_7t        0x10002f68        0x0
+ .glue_7t       0x10002f68        0x0 linker stubs
 
-.vfp11_veneer   0x10002f80        0x0
- .vfp11_veneer  0x10002f80        0x0 linker stubs
+.vfp11_veneer   0x10002f68        0x0
+ .vfp11_veneer  0x10002f68        0x0 linker stubs
 
-.v4_bx          0x10002f80        0x0
- .v4_bx         0x10002f80        0x0 linker stubs
+.v4_bx          0x10002f68        0x0
+ .v4_bx         0x10002f68        0x0 linker stubs
 
-.iplt           0x10002f80        0x0
- .iplt          0x10002f80        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x10002f68        0x0
+ .iplt          0x10002f68        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x10002f80       0xc8
+.rodata         0x10002f68       0xac
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
- .rodata.__bi_104.0
-                0x10002f80        0x8 CMakeFiles/DAC_MCP4912.dir/DAC_MCP4912.c.obj
- .rodata.str1.4
-                0x10002f88       0x8c CMakeFiles/DAC_MCP4912.dir/DAC_MCP4912.c.obj
-                                  0x7 (size before relaxing)
- .rodata.__bi_111.1
-                0x10003014        0xc CMakeFiles/DAC_MCP4912.dir/DAC_MCP4912.c.obj
  .rodata.hardware_alarm_claim.str1.4
-                0x10003020       0x22 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10002f68       0x84 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                                 0x22 (size before relaxing)
  .rodata.panic.str1.4
-                0x10003020       0x12 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002fec       0x12 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata.hard_assertion_failure.str1.4
-                0x10003020        0xc CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002fec        0xc CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata.str1.4
-                0x10003020       0x40 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10002fec       0x40 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x10003020        0xc CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10002fec        0xc CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x1000302c        0xc CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10002ff8        0xc CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x10003038        0xc CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10003004        0xc CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.0
-                0x10003044        0x2 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003060                        . = ALIGN (0x4)
- *fill*         0x10003046        0x2 
+                0x10003010        0x2 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x1000302c                        . = ALIGN (0x4)
+ *fill*         0x10003012        0x2 
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x10003048                        . = ALIGN (0x4)
+                0x10003014                        . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x10003048                        __exidx_start = .
+                0x10003014                        __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x10003048                        __exidx_end = .
-                0x10003048                        . = ALIGN (0x4)
-                0x10003048                        __binary_info_start = .
+                0x10003014                        __exidx_end = .
+                0x10003014                        . = ALIGN (0x4)
+                0x10003014                        __binary_info_start = .
 
-.binary_info    0x10003048       0x24
+.binary_info    0x10003014       0x1c
  *(.binary_info.keep.*)
- .binary_info.keep.__bi_ptr111
-                0x10003048        0x4 CMakeFiles/DAC_MCP4912.dir/DAC_MCP4912.c.obj
- .binary_info.keep.__bi_ptr104
-                0x1000304c        0x4 CMakeFiles/DAC_MCP4912.dir/DAC_MCP4912.c.obj
  .binary_info.keep.__bi_ptr81
-                0x10003050        0x4 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10003014        0x4 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x10003054        0x4 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10003018        0x4 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x10003058        0x4 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x1000301c        0x4 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x1000305c        0x4 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10003020        0x4 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x10003060        0x4 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10003024        0x4 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x10003064        0x4 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10003028        0x4 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr22
-                0x10003068        0x4 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x1000302c        0x4 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
-                0x1000306c                        __binary_info_end = .
+                0x10003030                        __binary_info_end = .
 
-.rel.dyn        0x1000306c        0x0
- .rel.iplt      0x1000306c        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x1000306c                        . = ALIGN (0x4)
+.rel.dyn        0x10003030        0x0
+ .rel.iplt      0x10003030        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x10003030                        . = ALIGN (0x4)
 
 .ram_vector_table
                 0x20000000       0xc0
@@ -2327,7 +2318,7 @@ LOAD /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-no
                 0x20000000       0xc0 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x20000000                ram_vector_table
 
-.data           0x200000c0      0x310 load address 0x1000306c
+.data           0x200000c0      0x310 load address 0x10003030
                 0x200000c0                        __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -2414,36 +2405,36 @@ LOAD /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-no
  *(.jcr)
                 0x200003d0                        . = ALIGN (0x4)
                 0x200003d0                        __data_end__ = .
-                0x1000306c                        __etext = LOADADDR (.data)
+                0x10003030                        __etext = LOADADDR (.data)
 
 .tm_clone_table
-                0x200003d0        0x0 load address 0x1000337c
+                0x200003d0        0x0 load address 0x10003340
  .tm_clone_table
                 0x200003d0        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x200003d0        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x200003d0        0x0 load address 0x1000337c
+.igot.plt       0x200003d0        0x0 load address 0x10003340
  .igot.plt      0x200003d0        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x200003d0        0x0 load address 0x1000337c
+                0x200003d0        0x0 load address 0x10003340
                 0x200003d0                        . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x20040000        0x0 load address 0x1000337c
+.scratch_x      0x20040000        0x0 load address 0x10003340
                 0x20040000                        __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20040000                        . = ALIGN (0x4)
                 0x20040000                        __scratch_x_end__ = .
-                0x1000337c                        __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x10003340                        __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20041000        0x0 load address 0x1000337c
+.scratch_y      0x20041000        0x0 load address 0x10003340
                 0x20041000                        __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20041000                        . = ALIGN (0x4)
                 0x20041000                        __scratch_y_end__ = .
-                0x1000337c                        __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x10003340                        __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x200003d0      0x4d0
                 0x200003d0                        . = ALIGN (0x4)
@@ -2505,8 +2496,8 @@ LOAD /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-no
  *(.stack*)
  .stack         0x20041000      0x800 CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x1000337c        0x0
-                0x1000337c                        PROVIDE (__flash_binary_end = .)
+.flash_end      0x10003340        0x0
+                0x10003340                        PROVIDE (__flash_binary_end = .)
                 0x20040000                        __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20041000                        __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20042000                        __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -2586,7 +2577,7 @@ LOAD CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
 LOAD CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 LOAD CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 LOAD CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
-LOAD /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//ccaVpjfH.o
+LOAD /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//ccjYeSDi.o
 LOAD /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -2682,7 +2673,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x000005ea       0x2c CMakeFiles/DAC_MCP4912.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
  .ARM.attributes
-                0x00000616       0x22 /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//ccaVpjfH.o
+                0x00000616       0x22 /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//ccjYeSDi.o
  .ARM.attributes
                 0x00000638       0x1e /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
