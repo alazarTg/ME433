@@ -18,5 +18,6 @@ add_subdirectory(HW3)
 add_subdirectory(HW4)
 add_subdirectory(HW5)
 add_subdirectory(HW6)
+add_subdirectory(HW7)
 
 

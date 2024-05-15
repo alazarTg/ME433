@@ -259,6 +259,19 @@ main_display/fast:
 	$(MAKE) $(MAKESILENT) -f HW6/CMakeFiles/main_display.dir/build.make HW6/CMakeFiles/main_display.dir/build
 .PHONY : main_display/fast
 
+#=============================================================================
+# Target rules for targets named UART_comm
+
+# Build rule for target.
+UART_comm: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 UART_comm
+.PHONY : UART_comm
+
+# fast build rule for target.
+UART_comm/fast:
+	$(MAKE) $(MAKESILENT) -f HW7/CMakeFiles/UART_comm.dir/build.make HW7/CMakeFiles/UART_comm.dir/build
+.PHONY : UART_comm/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -274,6 +287,7 @@ help:
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 	@echo "... CDC_comm"
 	@echo "... DAC_MCP4912"
+	@echo "... UART_comm"
 	@echo "... blink"
 	@echo "... bs2_default"
 	@echo "... main"

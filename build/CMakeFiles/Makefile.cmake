@@ -116,6 +116,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/alazartegegnework/me433/hw/ME433/HW4/CMakeLists.txt"
   "/Users/alazartegegnework/me433/hw/ME433/HW5/CMakeLists.txt"
   "/Users/alazartegegnework/me433/hw/ME433/HW6/CMakeLists.txt"
+  "/Users/alazartegegnework/me433/hw/ME433/HW7/CMakeLists.txt"
   "CMakeFiles/3.29.0/CMakeASMCompiler.cmake"
   "CMakeFiles/3.29.0/CMakeCCompiler.cmake"
   "CMakeFiles/3.29.0/CMakeCXXCompiler.cmake"
@@ -258,6 +259,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "HW4/CMakeFiles/CMakeDirectoryInformation.cmake"
   "HW5/CMakeFiles/CMakeDirectoryInformation.cmake"
   "HW6/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "HW7/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -273,4 +275,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "HW4/CMakeFiles/DAC_MCP4912.dir/DependInfo.cmake"
   "HW5/CMakeFiles/main.dir/DependInfo.cmake"
   "HW6/CMakeFiles/main_display.dir/DependInfo.cmake"
+  "HW7/CMakeFiles/UART_comm.dir/DependInfo.cmake"
   )

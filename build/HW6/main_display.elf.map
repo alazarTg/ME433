@@ -521,10 +521,14 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .data          0x00000000        0x0 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .bss           0x00000000        0x0 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._out_fct
+                0x00000000       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.__wrap_snprintf
                 0x00000000       0x28 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.__wrap_vsnprintf
                 0x00000000       0x1c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text.vfctprintf
+                0x00000000       0x20 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.weak_raw_printf
                 0x00000000       0x40 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .data          0x00000000        0x0 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
@@ -917,6 +921,8 @@ Discarded input sections
  .bss           0x00000000        0x0 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_out_chars_no_crlf
                 0x00000000       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .text.stdio_buffered_printer
+                0x00000000       0x64 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdout_serialize_begin
                 0x00000000       0x30 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdout_serialize_end
@@ -934,6 +940,10 @@ Discarded input sections
  .text._isatty  0x00000000        0xc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_flush
                 0x00000000       0x28 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .text.__wrap_vprintf
+                0x00000000       0xd4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .text.__wrap_printf
+                0x00000000       0x18 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_getchar
                 0x00000000       0x7c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.getchar_timeout_us
@@ -1190,9 +1200,9 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
  .data          0x00000000        0x0 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
  .bss           0x00000000        0x0 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
- .text          0x00000000        0x0 /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//cclcxi9e.o
- .data          0x00000000        0x0 /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//cclcxi9e.o
- .bss           0x00000000        0x0 /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//cclcxi9e.o
+ .text          0x00000000        0x0 /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//ccSIvHxo.o
+ .data          0x00000000        0x0 /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//ccSIvHxo.o
+ .bss           0x00000000        0x0 /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//ccSIvHxo.o
  .data          0x00000000        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-calloc.o)
@@ -1511,11 +1521,11 @@ LOAD /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-no
 .boot2          0x10000000      0x100
                 0x10000000                        __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//cclcxi9e.o
+ .boot2         0x10000000      0x100 /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//ccSIvHxo.o
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x10000100     0x7198
+.text           0x10000100     0x7008
                 0x10000100                        __logical_binary_start = .
  *(.vectors)
  .vectors       0x10000100       0xd4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1580,621 +1590,609 @@ LOAD /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-no
  .text.frame_dummy
                 0x100002e4       0x24 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
  .text.startup.main
-                0x10000308      0x148 CMakeFiles/main_display.dir/main_display.c.obj
+                0x10000308      0x134 CMakeFiles/main_display.dir/main_display.c.obj
                 0x10000308                main
  .text.ssd1306_update
-                0x10000450       0xa4 CMakeFiles/main_display.dir/ssd1306.c.obj
-                0x10000450                ssd1306_update
+                0x1000043c       0xa4 CMakeFiles/main_display.dir/ssd1306.c.obj
+                0x1000043c                ssd1306_update
  .text.ssd1306_setup
-                0x100004f4      0x23c CMakeFiles/main_display.dir/ssd1306.c.obj
-                0x100004f4                ssd1306_setup
+                0x100004e0      0x23c CMakeFiles/main_display.dir/ssd1306.c.obj
+                0x100004e0                ssd1306_setup
  .text.ssd1306_drawPixel
-                0x10000730       0x34 CMakeFiles/main_display.dir/ssd1306.c.obj
-                0x10000730                ssd1306_drawPixel
+                0x1000071c       0x34 CMakeFiles/main_display.dir/ssd1306.c.obj
+                0x1000071c                ssd1306_drawPixel
  .text.ssd1306_clear
-                0x10000764       0x1c CMakeFiles/main_display.dir/ssd1306.c.obj
-                0x10000764                ssd1306_clear
+                0x10000750       0x1c CMakeFiles/main_display.dir/ssd1306.c.obj
+                0x10000750                ssd1306_clear
  .text.drawString
-                0x10000780       0xc0 CMakeFiles/main_display.dir/font.c.obj
-                0x10000780                drawString
+                0x1000076c       0xc0 CMakeFiles/main_display.dir/font.c.obj
+                0x1000076c                drawString
  .text.gpio_set_function
-                0x10000840       0x30 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000840                gpio_set_function
+                0x1000082c       0x30 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x1000082c                gpio_set_function
  .text.gpio_set_pulls
-                0x10000870       0x24 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000870                gpio_set_pulls
+                0x1000085c       0x24 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x1000085c                gpio_set_pulls
  .text.gpio_set_input_enabled
-                0x10000894       0x28 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000894                gpio_set_input_enabled
+                0x10000880       0x28 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000880                gpio_set_input_enabled
  .text.gpio_init
-                0x100008bc       0x3c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x100008bc                gpio_init
+                0x100008a8       0x3c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x100008a8                gpio_init
  .text.running_on_fpga
-                0x100008f8       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x100008f8                running_on_fpga
+                0x100008e4       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x100008e4                running_on_fpga
  .text.hw_claim_or_assert
-                0x10000908       0x44 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x10000908                hw_claim_or_assert
+                0x100008f4       0x44 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x100008f4                hw_claim_or_assert
  .text.hw_claim_unused_from_range
-                0x1000094c       0x9c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x1000094c                hw_claim_unused_from_range
+                0x10000938       0x9c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x10000938                hw_claim_unused_from_range
  .text.spin_locks_reset
-                0x100009e8       0x1c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x100009e8                spin_locks_reset
+                0x100009d4       0x1c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x100009d4                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x10000a04       0x18 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x10000a04                next_striped_spin_lock_num
+                0x100009f0       0x18 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x100009f0                next_striped_spin_lock_num
  .text.spin_lock_claim_unused
-                0x10000a1c       0x24 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x10000a1c                spin_lock_claim_unused
+                0x10000a08       0x24 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000a08                spin_lock_claim_unused
  .text.irq_set_enabled
-                0x10000a40       0x24 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000a40                irq_set_enabled
+                0x10000a2c       0x24 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000a2c                irq_set_enabled
  .text.irq_set_pending
-                0x10000a64       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000a64                irq_set_pending
+                0x10000a50       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000a50                irq_set_pending
  .text.irq_has_shared_handler
-                0x10000a74       0x2c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000a74                irq_has_shared_handler
+                0x10000a60       0x2c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000a60                irq_has_shared_handler
  .text.irq_get_vtable_handler
-                0x10000aa0       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000aa0                irq_get_vtable_handler
+                0x10000a8c       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000a8c                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x10000ab0       0x54 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000ab0                irq_set_exclusive_handler
+                0x10000a9c       0x54 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000a9c                irq_set_exclusive_handler
  .text.irq_add_shared_handler
-                0x10000b04      0x1f4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000b04                irq_add_shared_handler
+                0x10000af0      0x1f4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000af0                irq_add_shared_handler
  .text.irq_remove_handler
-                0x10000cf8      0x1c4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000cf8                irq_remove_handler
+                0x10000ce4      0x1c4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000ce4                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x10000ebc       0xb4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000ebc                irq_add_tail_to_free_list
+                0x10000ea8       0xb4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000ea8                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x10000f70       0x24 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000f70                irq_init_priorities
+                0x10000f5c       0x24 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000f5c                irq_init_priorities
  .text.user_irq_claim_unused
-                0x10000f94       0x2c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000f94                user_irq_claim_unused
+                0x10000f80       0x2c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000f80                user_irq_claim_unused
  .text.lock_init
-                0x10000fc0       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x10000fc0                lock_init
+                0x10000fac       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x10000fac                lock_init
  .text.mutex_init
-                0x10000fd0       0x1c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x10000fd0                mutex_init
+                0x10000fbc       0x1c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10000fbc                mutex_init
  .text.recursive_mutex_init
-                0x10000fec       0x1c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x10000fec                recursive_mutex_init
+                0x10000fd8       0x1c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10000fd8                recursive_mutex_init
  .text.critical_section_init
-                0x10001008       0x1c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-                0x10001008                critical_section_init
+                0x10000ff4       0x1c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+                0x10000ff4                critical_section_init
  .text.critical_section_init_with_lock_num
-                0x10001024       0x14 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-                0x10001024                critical_section_init_with_lock_num
+                0x10001010       0x14 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+                0x10001010                critical_section_init_with_lock_num
  .text.timer_pool_entry_comparator
-                0x10001038       0x34 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001038                timer_pool_entry_comparator
+                0x10001024       0x34 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001024                timer_pool_entry_comparator
  .text.sleep_until_callback
-                0x1000106c       0x30 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001058       0x30 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.add_alarm_under_lock.isra.0
-                0x1000109c      0x100 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001088      0x100 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x1000119c      0x1c0 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001188      0x1c0 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x1000135c       0x6c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x1000135c                alarm_pool_init_default
+                0x10001348       0x6c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001348                alarm_pool_init_default
  .text.alarm_pool_get_default
-                0x100013c8        0x8 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x100013c8                alarm_pool_get_default
+                0x100013b4        0x8 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100013b4                alarm_pool_get_default
  .text.alarm_pool_add_alarm_at
-                0x100013d0      0x17c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x100013d0                alarm_pool_add_alarm_at
+                0x100013bc      0x17c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100013bc                alarm_pool_add_alarm_at
  .text.alarm_pool_core_num
-                0x1000154c        0x4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x1000154c                alarm_pool_core_num
+                0x10001538        0x4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001538                alarm_pool_core_num
  .text.sleep_until
-                0x10001550       0xc4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001550                sleep_until
+                0x1000153c       0xc4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x1000153c                sleep_until
  .text.sleep_ms
-                0x10001614       0x38 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001614                sleep_ms
+                0x10001600       0x38 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001600                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x1000164c       0xcc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x1000164c                best_effort_wfe_or_timeout
+                0x10001638       0xcc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001638                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x10001718       0xbc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001704       0xbc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x100017d4       0x18 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100017d4                hardware_alarm_claim
+                0x100017c0       0x18 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100017c0                hardware_alarm_claim
  .text.time_us_64
-                0x100017ec       0x14 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100017ec                time_us_64
+                0x100017d8       0x14 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100017d8                time_us_64
  .text.busy_wait_until
-                0x10001800       0x20 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001800                busy_wait_until
+                0x100017ec       0x20 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100017ec                busy_wait_until
  .text.hardware_alarm_set_callback
-                0x10001820       0x8c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001820                hardware_alarm_set_callback
+                0x1000180c       0x8c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x1000180c                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x100018ac       0xd0 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100018ac                hardware_alarm_set_target
+                0x10001898       0xd0 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001898                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x1000197c       0x3c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x1000197c                hardware_alarm_cancel
+                0x10001968       0x3c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001968                hardware_alarm_cancel
  .text.ph_merge_nodes
-                0x100019b8       0x58 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100019a4       0x58 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_post_alloc_init
-                0x10001a10       0x3c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001a10                ph_post_alloc_init
+                0x100019fc       0x3c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100019fc                ph_post_alloc_init
  .text.ph_merge_two_pass
-                0x10001a4c       0x8c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001a4c                ph_merge_two_pass
+                0x10001a38       0x8c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001a38                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x10001ad8      0x100 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001ac4      0x100 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x10001bd8      0x104 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001bd8                ph_remove_head
+                0x10001bc4      0x104 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001bc4                ph_remove_head
  .text.ph_remove_and_free_node
-                0x10001cdc       0x78 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001cdc                ph_remove_and_free_node
+                0x10001cc8       0x78 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001cc8                ph_remove_and_free_node
  .text.clocks_init
-                0x10001d54      0x2c8 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001d54                clocks_init
+                0x10001d40      0x2c8 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001d40                clocks_init
  .text.clock_get_hz
-                0x1000201c        0xc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x1000201c                clock_get_hz
+                0x10002008        0xc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10002008                clock_get_hz
  .text.pll_init
-                0x10002028       0xa4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x10002028                pll_init
+                0x10002014       0xa4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x10002014                pll_init
  .text.watchdog_start_tick
-                0x100020cc       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x100020cc                watchdog_start_tick
+                0x100020b8       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x100020b8                watchdog_start_tick
  .text.watchdog_reboot
-                0x100020dc       0x9c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x100020dc                watchdog_reboot
+                0x100020c8       0x9c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x100020c8                watchdog_reboot
  .text.xosc_init
-                0x10002178       0x28 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x10002178                xosc_init
+                0x10002164       0x28 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x10002164                xosc_init
  .text.runtime_init
-                0x100021a0       0xf0 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x100021a0                runtime_init
- .text._exit    0x10002290        0x4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002290                _exit
- .text.exit     0x10002294        0x8 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002294                exit
- .text.panic    0x1000229c       0x30 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x1000229c                panic
+                0x1000218c       0xf0 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x1000218c                runtime_init
+ .text._exit    0x1000227c        0x4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x1000227c                _exit
+ .text.exit     0x10002280        0x8 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002280                exit
+ .text.panic    0x10002288       0x30 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002288                panic
  .text.hard_assertion_failure
-                0x100022cc        0xc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x100022cc                hard_assertion_failure
+                0x100022b8        0xc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100022b8                hard_assertion_failure
  .text._out_buffer
-                0x100022d8        0x8 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100022c4        0x8 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_null
-                0x100022e0        0x4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100022cc        0x4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_rev
-                0x100022e4       0xac CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100022d0       0xac CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_format
-                0x10002390      0x250 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x1000237c      0x250 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_char
-                0x100025e0       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._out_fct
-                0x100025f0       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._etoa    0x10002600      0x464 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x10002a64      0x3c0 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100025cc       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._etoa    0x100025dc      0x464 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x10002a40      0x3c0 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._vsnprintf
-                0x10002e24      0xbc8 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002e00      0xbc8 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.__wrap_sprintf
-                0x100039ec       0x2c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x100039ec                __wrap_sprintf
- .text.vfctprintf
-                0x10003a18       0x20 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x10003a18                vfctprintf
+                0x100039c8       0x2c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100039c8                __wrap_sprintf
  .text.weak_raw_vprintf
-                0x10003a38       0x30 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x10003a38                weak_raw_vprintf
- .text          0x10003a68       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x100039f4       0x30 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100039f4                weak_raw_vprintf
+ .text          0x10003a24       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x10003a78       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10003a78                rom_func_lookup
+                0x10003a34       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10003a34                rom_func_lookup
  .text.rom_data_lookup
-                0x10003a88       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10003a88                rom_data_lookup
+                0x10003a44       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10003a44                rom_data_lookup
  .text.rom_funcs_lookup
-                0x10003a98       0x44 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10003a98                rom_funcs_lookup
+                0x10003a54       0x44 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10003a54                rom_funcs_lookup
  .text.__wrap___aeabi_idiv
-                0x10003adc       0x50 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x10003adc                __wrap___aeabi_idivmod
-                0x10003adc                divmod_s32s32
-                0x10003adc                div_s32s32
-                0x10003adc                __wrap___aeabi_idiv
-                0x10003ae4                divmod_s32s32_unsafe
-                0x10003b10                divmod_s32s32_savestate
+                0x10003a98       0x50 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10003a98                __wrap___aeabi_idivmod
+                0x10003a98                divmod_s32s32
+                0x10003a98                div_s32s32
+                0x10003a98                __wrap___aeabi_idiv
+                0x10003aa0                divmod_s32s32_unsafe
+                0x10003acc                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x10003b2c       0x4c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x10003b2c                __wrap___aeabi_uidiv
-                0x10003b2c                __wrap___aeabi_uidivmod
-                0x10003b2c                div_u32u32
-                0x10003b2c                divmod_u32u32
-                0x10003b34                divmod_u32u32_unsafe
-                0x10003b5c                divmod_u32u32_savestate
+                0x10003ae8       0x4c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10003ae8                __wrap___aeabi_uidiv
+                0x10003ae8                __wrap___aeabi_uidivmod
+                0x10003ae8                div_u32u32
+                0x10003ae8                divmod_u32u32
+                0x10003af0                divmod_u32u32_unsafe
+                0x10003b18                divmod_u32u32_savestate
  .text.__wrap___aeabi_ldiv
-                0x10003b78      0x424 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x10003b78                __wrap___aeabi_ldivmod
-                0x10003b78                div_s64s64
-                0x10003b78                divmod_s64s64
-                0x10003ba8                divmod_u64u64
-                0x10003ba8                div_u64u64
-                0x10003ba8                __wrap___aeabi_uldivmod
-                0x10003bb8                divmod_u64u64_savestate
-                0x10003bd8                divmod_s64s64_unsafe
-                0x10003c60                divmod_u64u64_unsafe
+                0x10003b34      0x424 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10003b34                __wrap___aeabi_ldivmod
+                0x10003b34                div_s64s64
+                0x10003b34                divmod_s64s64
+                0x10003b64                divmod_u64u64
+                0x10003b64                div_u64u64
+                0x10003b64                __wrap___aeabi_uldivmod
+                0x10003b74                divmod_u64u64_savestate
+                0x10003b94                divmod_s64s64_unsafe
+                0x10003c1c                divmod_u64u64_unsafe
  .text.__wrap___aeabi_darithmetic
-                0x10003f9c       0x80 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003f9c                __wrap___aeabi_drsub
-                0x10003fa2                __wrap___aeabi_dsub
-                0x10003fb4                __wrap___aeabi_dadd
-                0x10003fc6                __wrap___aeabi_ddiv
-                0x10004002                __wrap___aeabi_dmul
+                0x10003f58       0x80 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003f58                __wrap___aeabi_drsub
+                0x10003f5e                __wrap___aeabi_dsub
+                0x10003f70                __wrap___aeabi_dadd
+                0x10003f82                __wrap___aeabi_ddiv
+                0x10003fbe                __wrap___aeabi_dmul
  .text.__wrap___aeabi_cdcmple
-                0x1000401c       0x6c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x1000401c                __wrap___aeabi_cdrcmple
-                0x1000402c                __wrap___aeabi_cdcmple
-                0x1000402c                __wrap___aeabi_cdcmpeq
+                0x10003fd8       0x6c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003fd8                __wrap___aeabi_cdrcmple
+                0x10003fe8                __wrap___aeabi_cdcmple
+                0x10003fe8                __wrap___aeabi_cdcmpeq
  .text.__wrap___aeabi_dcmplt
-                0x10004088        0xc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10004088                __wrap___aeabi_dcmplt
+                0x10004044        0xc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10004044                __wrap___aeabi_dcmplt
  .text.__wrap___aeabi_dcmpge
-                0x10004094       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10004094                __wrap___aeabi_dcmpge
+                0x10004050       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10004050                __wrap___aeabi_dcmpge
  .text.__wrap___aeabi_dcmpgt
-                0x100040a4        0xa CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x100040a4                __wrap___aeabi_dcmpgt
+                0x10004060        0xa CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10004060                __wrap___aeabi_dcmpgt
  .text.__wrap___aeabi_dcmpun
-                0x100040ae       0x1c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x100040ae                __wrap___aeabi_dcmpun
- *fill*         0x100040ca        0x2 
+                0x1000406a       0x1c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x1000406a                __wrap___aeabi_dcmpun
+ *fill*         0x10004086        0x2 
  .text.__wrap___aeabi_i2d
-                0x100040cc       0x38 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x100040cc                __wrap___aeabi_ui2d
-                0x100040d4                __wrap___aeabi_i2d
+                0x10004088       0x38 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10004088                __wrap___aeabi_ui2d
+                0x10004090                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2iz
-                0x10004104       0x48 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10004104                __wrap___aeabi_d2iz
-                0x10004104                double2int_z
+                0x100040c0       0x48 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x100040c0                __wrap___aeabi_d2iz
+                0x100040c0                double2int_z
  .text.__wrap___aeabi_d2uiz
-                0x1000414c       0x18 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x1000414c                double2uint
-                0x1000414c                __wrap___aeabi_d2uiz
+                0x10004108       0x18 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10004108                double2uint
+                0x10004108                __wrap___aeabi_d2uiz
  .text.__aeabi_double_init
-                0x10004164       0x98 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x10004164                __aeabi_double_init
+                0x10004120       0x98 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10004120                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x100041fc       0x2c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x100041fc                double_table_shim_on_use_helper
+                0x100041b8       0x2c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x100041b8                double_table_shim_on_use_helper
  .text.__wrap___aeabi_dsub
-                0x10004228       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10004228                drsub_shim
-                0x1000422e                dsub_shim
+                0x100041e4       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x100041e4                drsub_shim
+                0x100041ea                dsub_shim
  .text.dadd_shim
-                0x10004238      0x15c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10004238                dadd_shim
+                0x100041f4      0x15c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x100041f4                dadd_shim
  .text.dmul_shim
-                0x10004394      0x15c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10004394                dmul_shim
+                0x10004350      0x15c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004350                dmul_shim
  .text.ddiv_shim
-                0x100044f0      0x1b0 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x100044f0                ddiv_shim
+                0x100044ac      0x1b0 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x100044ac                ddiv_shim
  .text.double2uint_shim
-                0x100046a0        0xe CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x100046a0                double2uint_shim
-                0x100046a2                double2ufix_shim
- *fill*         0x100046ae        0x2 
+                0x1000465c        0xe CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x1000465c                double2uint_shim
+                0x1000465e                double2ufix_shim
+ *fill*         0x1000466a        0x2 
  .text.double2uint64_shim
-                0x100046b0       0x70 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x100046b0                double2uint64_shim
-                0x100046b2                double2ufix64_shim
-                0x100046d2                d2fix_a
+                0x1000466c       0x70 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x1000466c                double2uint64_shim
+                0x1000466e                double2ufix64_shim
+                0x1000468e                d2fix_a
  .text.dunpacks
-                0x10004720       0x3c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10004720                dunpacks
+                0x100046dc       0x3c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x100046dc                dunpacks
  .text.__aeabi_lmul
-                0x1000475c       0x32 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x1000475c                __wrap___aeabi_lmul
- *fill*         0x1000478e        0x2 
+                0x10004718       0x32 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x10004718                __wrap___aeabi_lmul
+ *fill*         0x1000474a        0x2 
  .text.__wrap___aeabi_farithmetic
-                0x10004790       0x48 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x10004790                __wrap___aeabi_frsub
-                0x10004796                __wrap___aeabi_fsub
-                0x1000479c                __wrap___aeabi_fadd
-                0x100047a2                __wrap___aeabi_fdiv
-                0x100047ca                __wrap___aeabi_fmul
+                0x1000474c       0x48 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x1000474c                __wrap___aeabi_frsub
+                0x10004752                __wrap___aeabi_fsub
+                0x10004758                __wrap___aeabi_fadd
+                0x1000475e                __wrap___aeabi_fdiv
+                0x10004786                __wrap___aeabi_fmul
  .text.__wrap___aeabi_i2f
-                0x100047d8       0x44 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x100047d8                __wrap___aeabi_i2f
+                0x10004794       0x44 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x10004794                __wrap___aeabi_i2f
  .text.__wrap___aeabi_f2d
-                0x1000481c       0x14 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x1000481c                __wrap___aeabi_f2d
+                0x100047d8       0x14 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x100047d8                __wrap___aeabi_f2d
  .text.__aeabi_float_init
-                0x10004830       0x64 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x10004830                __aeabi_float_init
+                0x100047ec       0x64 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x100047ec                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x10004894       0x2c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x10004894                float_table_shim_on_use_helper
+                0x10004850       0x2c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x10004850                float_table_shim_on_use_helper
  .text.float2double_shim
-                0x100048c0       0x30 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x100048c0                float2double_shim
- .text          0x100048f0       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x100048f0                __aeabi_mem_init
- .text.memset   0x10004900        0xc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10004900                __wrap_memset
- .text.memcpy   0x1000490c        0xc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x1000490c                __wrap___aeabi_memcpy
-                0x1000490c                __wrap_memcpy
+                0x1000487c       0x30 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x1000487c                float2double_shim
+ .text          0x100048ac       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x100048ac                __aeabi_mem_init
+ .text.memset   0x100048bc        0xc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x100048bc                __wrap_memset
+ .text.memcpy   0x100048c8        0xc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x100048c8                __wrap___aeabi_memcpy
+                0x100048c8                __wrap_memcpy
  .text.stdio_out_chars_crlf
-                0x10004918       0x94 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .text.stdio_buffered_printer
-                0x100049ac       0x64 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100048d4       0x94 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_putchar
-                0x10004a10       0x98 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004a10                __wrap_putchar
+                0x10004968       0x98 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004968                __wrap_putchar
  .text.__wrap_puts
-                0x10004aa8       0xe0 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004aa8                __wrap_puts
+                0x10004a00       0xe0 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004a00                __wrap_puts
  .text.stdio_set_driver_enabled
-                0x10004b88       0x30 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004b88                stdio_set_driver_enabled
- .text.__wrap_vprintf
-                0x10004bb8       0xd4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004bb8                __wrap_vprintf
- .text.__wrap_printf
-                0x10004c8c       0x18 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004c8c                __wrap_printf
+                0x10004ae0       0x30 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004ae0                stdio_set_driver_enabled
  .text.stdio_init_all
-                0x10004ca4        0x8 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004ca4                stdio_init_all
+                0x10004b10        0x8 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004b10                stdio_init_all
  .text.resetd_init
-                0x10004cac        0x4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10004b18        0x4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_reset
-                0x10004cb0        0xc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10004b1c        0xc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_open
-                0x10004cbc       0x28 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10004b28       0x28 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_xfer_cb
-                0x10004ce4        0x4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10004b50        0x4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_control_xfer_cb
-                0x10004ce8       0x60 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10004b54       0x60 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.usbd_app_driver_get_cb
-                0x10004d48        0xc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x10004d48                usbd_app_driver_get_cb
+                0x10004bb4        0xc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10004bb4                usbd_app_driver_get_cb
  .text.tud_cdc_line_coding_cb
-                0x10004d54       0x34 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x10004d54                tud_cdc_line_coding_cb
+                0x10004bc0       0x34 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10004bc0                tud_cdc_line_coding_cb
  .text.stdio_usb_set_chars_available_callback
-                0x10004d88       0x14 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10004d88                stdio_usb_set_chars_available_callback
- .text.usb_irq  0x10004d9c       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10004bf4       0x14 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10004bf4                stdio_usb_set_chars_available_callback
+ .text.usb_irq  0x10004c08       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.timer_task
-                0x10004dac       0x54 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10004c18       0x54 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.stdio_usb_in_chars
-                0x10004e00       0x90 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10004e00                stdio_usb_in_chars
+                0x10004c6c       0x90 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10004c6c                stdio_usb_in_chars
  .text.stdio_usb_out_chars
-                0x10004e90      0x104 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10004cfc      0x104 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.low_priority_worker_irq
-                0x10004f94       0xa8 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10004e00       0xa8 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.tud_cdc_rx_cb
-                0x1000503c       0x20 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x1000503c                tud_cdc_rx_cb
+                0x10004ea8       0x20 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10004ea8                tud_cdc_rx_cb
  .text.stdio_usb_init
-                0x1000505c       0xe0 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x1000505c                stdio_usb_init
+                0x10004ec8       0xe0 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10004ec8                stdio_usb_init
  .text.stdio_usb_connected
-                0x1000513c        0xc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x1000513c                stdio_usb_connected
+                0x10004fa8        0xc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10004fa8                stdio_usb_connected
  .text.tud_descriptor_device_cb
-                0x10005148        0x8 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x10005148                tud_descriptor_device_cb
+                0x10004fb4        0x8 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10004fb4                tud_descriptor_device_cb
  .text.tud_descriptor_configuration_cb
-                0x10005150        0x8 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x10005150                tud_descriptor_configuration_cb
+                0x10004fbc        0x8 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10004fbc                tud_descriptor_configuration_cb
  .text.tud_descriptor_string_cb
-                0x10005158       0x78 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x10005158                tud_descriptor_string_cb
+                0x10004fc4       0x78 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10004fc4                tud_descriptor_string_cb
  .text.startup._retrieve_unique_id_on_boot
-                0x100051d0       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x1000503c       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
  .text.pico_get_unique_board_id_string
-                0x100051e0      0x1a8 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-                0x100051e0                pico_get_unique_board_id_string
+                0x1000504c      0x1a8 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x1000504c                pico_get_unique_board_id_string
  .text.flash_get_unique_id
-                0x10005388       0x3c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-                0x10005388                flash_get_unique_id
+                0x100051f4       0x3c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x100051f4                flash_get_unique_id
  .text.dcd_int_enable
-                0x100053c4        0xc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x100053c4                dcd_int_enable
+                0x10005230        0xc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005230                dcd_int_enable
  .text.dcd_set_address
-                0x100053d0       0x14 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x100053d0                dcd_set_address
+                0x1000523c       0x14 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x1000523c                dcd_set_address
  .text.dcd_connect
-                0x100053e4       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x100053e4                dcd_connect
+                0x10005250       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005250                dcd_connect
  .text.dcd_init
-                0x100053f4       0x98 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x100053f4                dcd_init
+                0x10005260       0x98 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005260                dcd_init
  .text.dcd_edpt0_status_complete
-                0x1000548c       0x1c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x1000548c                dcd_edpt0_status_complete
+                0x100052f8       0x1c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x100052f8                dcd_edpt0_status_complete
  .text.dcd_edpt_open
-                0x100054a8      0x108 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x100054a8                dcd_edpt_open
+                0x10005314      0x108 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005314                dcd_edpt_open
  .text.dcd_edpt_close_all
-                0x100055b0        0x8 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x100055b0                dcd_edpt_close_all
+                0x1000541c        0x8 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x1000541c                dcd_edpt_close_all
  .text.dcd_edpt_xfer
-                0x100055b8       0x24 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x100055b8                dcd_edpt_xfer
+                0x10005424       0x24 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005424                dcd_edpt_xfer
  .text.dcd_edpt_stall
-                0x100055dc       0x34 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x100055dc                dcd_edpt_stall
+                0x10005448       0x34 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005448                dcd_edpt_stall
  .text.dcd_edpt_clear_stall
-                0x10005610       0x30 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10005610                dcd_edpt_clear_stall
+                0x1000547c       0x30 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x1000547c                dcd_edpt_clear_stall
  .text.rp2040_usb_init
-                0x10005640       0x4c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x10005640                rp2040_usb_init
+                0x100054ac       0x4c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x100054ac                rp2040_usb_init
  .text.hw_endpoint_xfer_start
-                0x1000568c       0x40 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x1000568c                hw_endpoint_xfer_start
+                0x100054f8       0x40 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x100054f8                hw_endpoint_xfer_start
  .text.tud_mounted
-                0x100056cc       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x100056cc                tud_mounted
+                0x10005538       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10005538                tud_mounted
  .text.tud_suspended
-                0x100056dc       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x100056dc                tud_suspended
+                0x10005548       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10005548                tud_suspended
  .text.tud_inited
-                0x100056ec       0x14 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x100056ec                tud_inited
+                0x10005558       0x14 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10005558                tud_inited
  .text.tud_init
-                0x10005700       0xdc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10005700                tud_init
+                0x1000556c       0xdc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x1000556c                tud_init
  .text.tud_task_ext
-                0x100057dc      0x850 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x100057dc                tud_task_ext
+                0x10005648      0x850 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10005648                tud_task_ext
  .text.usbd_open_edpt_pair
-                0x1000602c       0x9c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x1000602c                usbd_open_edpt_pair
+                0x10005e98       0x9c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10005e98                usbd_open_edpt_pair
  .text.usbd_defer_func
-                0x100060c8       0x48 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x100060c8                usbd_defer_func
+                0x10005f34       0x48 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10005f34                usbd_defer_func
  .text.usbd_edpt_open
-                0x10006110       0x34 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10006110                usbd_edpt_open
+                0x10005f7c       0x34 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10005f7c                usbd_edpt_open
  .text.usbd_edpt_claim
-                0x10006144       0x28 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10006144                usbd_edpt_claim
+                0x10005fb0       0x28 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10005fb0                usbd_edpt_claim
  .text.usbd_edpt_release
-                0x1000616c       0x28 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x1000616c                usbd_edpt_release
+                0x10005fd8       0x28 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10005fd8                usbd_edpt_release
  .text.usbd_edpt_xfer
-                0x10006194       0x4c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10006194                usbd_edpt_xfer
+                0x10006000       0x4c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006000                usbd_edpt_xfer
  .text.tud_control_status
-                0x100061e0       0x2c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x100061e0                tud_control_status
+                0x1000604c       0x2c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x1000604c                tud_control_status
  .text.tud_control_xfer
-                0x1000620c       0xac CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x1000620c                tud_control_xfer
+                0x10006078       0xac CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10006078                tud_control_xfer
  .text.usbd_control_reset
-                0x100062b8       0x14 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x100062b8                usbd_control_reset
+                0x10006124       0x14 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10006124                usbd_control_reset
  .text.usbd_control_set_complete_callback
-                0x100062cc        0xc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x100062cc                usbd_control_set_complete_callback
+                0x10006138        0xc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10006138                usbd_control_set_complete_callback
  .text.usbd_control_set_request
-                0x100062d8       0x1c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x100062d8                usbd_control_set_request
+                0x10006144       0x1c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10006144                usbd_control_set_request
  .text.usbd_control_xfer_cb
-                0x100062f4       0xf4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x100062f4                usbd_control_xfer_cb
+                0x10006160       0xf4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10006160                usbd_control_xfer_cb
  .text.tud_cdc_n_connected
-                0x100063e8       0x30 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x100063e8                tud_cdc_n_connected
+                0x10006254       0x30 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10006254                tud_cdc_n_connected
  .text.tud_cdc_n_available
-                0x10006418       0x18 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006418                tud_cdc_n_available
+                0x10006284       0x18 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10006284                tud_cdc_n_available
  .text.tud_cdc_n_read
-                0x10006430       0x70 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006430                tud_cdc_n_read
+                0x1000629c       0x70 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x1000629c                tud_cdc_n_read
  .text.tud_cdc_n_write_flush
-                0x100064a0       0x78 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x100064a0                tud_cdc_n_write_flush
+                0x1000630c       0x78 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x1000630c                tud_cdc_n_write_flush
  .text.tud_cdc_n_write
-                0x10006518       0x34 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006518                tud_cdc_n_write
+                0x10006384       0x34 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10006384                tud_cdc_n_write
  .text.tud_cdc_n_write_available
-                0x1000654c       0x18 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x1000654c                tud_cdc_n_write_available
+                0x100063b8       0x18 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x100063b8                tud_cdc_n_write_available
  .text.cdcd_init
-                0x10006564       0x7c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006564                cdcd_init
+                0x100063d0       0x7c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x100063d0                cdcd_init
  .text.cdcd_reset
-                0x100065e0       0x2c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x100065e0                cdcd_reset
+                0x1000644c       0x2c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x1000644c                cdcd_reset
  .text.cdcd_open
-                0x1000660c       0xe4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x1000660c                cdcd_open
+                0x10006478       0xe4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10006478                cdcd_open
  .text.cdcd_control_xfer_cb
-                0x100066f0       0xe4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x100066f0                cdcd_control_xfer_cb
+                0x1000655c       0xe4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x1000655c                cdcd_control_xfer_cb
  .text.cdcd_xfer_cb
-                0x100067d4      0x13c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x100067d4                cdcd_xfer_cb
+                0x10006640      0x13c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10006640                cdcd_xfer_cb
  .text.tusb_init
-                0x10006910        0xc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x10006910                tusb_init
+                0x1000677c        0xc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x1000677c                tusb_init
  .text.tusb_inited
-                0x1000691c        0x8 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x1000691c                tusb_inited
+                0x10006788        0x8 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x10006788                tusb_inited
  .text.tu_edpt_claim
-                0x10006924       0x50 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x10006924                tu_edpt_claim
+                0x10006790       0x50 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x10006790                tu_edpt_claim
  .text.tu_edpt_release
-                0x10006974       0x38 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x10006974                tu_edpt_release
+                0x100067e0       0x38 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x100067e0                tu_edpt_release
  .text.tu_edpt_validate
-                0x100069ac       0x7c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x100069ac                tu_edpt_validate
+                0x10006818       0x7c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x10006818                tu_edpt_validate
  .text.tu_edpt_bind_driver
-                0x10006a28       0x34 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x10006a28                tu_edpt_bind_driver
+                0x10006894       0x34 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x10006894                tu_edpt_bind_driver
  .text.tu_fifo_config
-                0x10006a5c       0x6c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006a5c                tu_fifo_config
+                0x100068c8       0x6c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x100068c8                tu_fifo_config
  .text.tu_fifo_count
-                0x10006ac8       0x2c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006ac8                tu_fifo_count
+                0x10006934       0x2c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006934                tu_fifo_count
  .text.tu_fifo_empty
-                0x10006af4       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006af4                tu_fifo_empty
+                0x10006960       0x10 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006960                tu_fifo_empty
  .text.tu_fifo_remaining
-                0x10006b04       0x2c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006b04                tu_fifo_remaining
+                0x10006970       0x2c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006970                tu_fifo_remaining
  .text.tu_fifo_read
-                0x10006b30       0x9c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006b30                tu_fifo_read
+                0x1000699c       0x9c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x1000699c                tu_fifo_read
  .text.tu_fifo_read_n
-                0x10006bcc       0xe8 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006bcc                tu_fifo_read_n
+                0x10006a38       0xe8 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006a38                tu_fifo_read_n
  .text.tu_fifo_write
-                0x10006cb4       0xa8 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006cb4                tu_fifo_write
+                0x10006b20       0xa8 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006b20                tu_fifo_write
  .text.tu_fifo_write_n
-                0x10006d5c      0x178 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006d5c                tu_fifo_write_n
+                0x10006bc8      0x178 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006bc8                tu_fifo_write_n
  .text.tu_fifo_clear
-                0x10006ed4       0x40 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006ed4                tu_fifo_clear
+                0x10006d40       0x40 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006d40                tu_fifo_clear
  .text.tu_fifo_set_overwritable
-                0x10006f14       0x48 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006f14                tu_fifo_set_overwritable
+                0x10006d80       0x48 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006d80                tu_fifo_set_overwritable
  .text.i2c_set_baudrate
-                0x10006f5c       0xc4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x10006f5c                i2c_set_baudrate
+                0x10006dc8       0xc4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x10006dc8                i2c_set_baudrate
  .text.i2c_init
-                0x10007020       0x50 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x10007020                i2c_init
+                0x10006e8c       0x50 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x10006e8c                i2c_init
  .text.i2c_write_blocking
-                0x10007070       0xd0 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x10007070                i2c_write_blocking
+                0x10006edc       0xd0 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x10006edc                i2c_write_blocking
  .text.adc_init
-                0x10007140       0x38 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-                0x10007140                adc_init
- .text.strlen   0x10007178       0x5c /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-strlen-stub.o)
-                0x10007178                strlen
+                0x10006fac       0x38 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+                0x10006fac                adc_init
+ .text.strlen   0x10006fe4       0x5c /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-strlen-stub.o)
+                0x10006fe4                strlen
  *(.fini)
- .fini          0x100071d4        0x4 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crti.o
-                0x100071d4                _fini
- .fini.__stub   0x100071d8       0xc0 linker stubs
+ .fini          0x10007040        0x4 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crti.o
+                0x10007040                _fini
+ *fill*         0x10007044        0x4 
+ .fini.__stub   0x10007048       0xc0 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -2206,120 +2204,120 @@ LOAD /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-no
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x10007298        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x10007298                        . = ALIGN (0x4)
+ .eh_frame      0x10007108        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x10007108                        . = ALIGN (0x4)
 
-.glue_7         0x10007298        0x0
- .glue_7        0x10007298        0x0 linker stubs
+.glue_7         0x10007108        0x0
+ .glue_7        0x10007108        0x0 linker stubs
 
-.glue_7t        0x10007298        0x0
- .glue_7t       0x10007298        0x0 linker stubs
+.glue_7t        0x10007108        0x0
+ .glue_7t       0x10007108        0x0 linker stubs
 
-.vfp11_veneer   0x10007298        0x0
- .vfp11_veneer  0x10007298        0x0 linker stubs
+.vfp11_veneer   0x10007108        0x0
+ .vfp11_veneer  0x10007108        0x0 linker stubs
 
-.v4_bx          0x10007298        0x0
- .v4_bx         0x10007298        0x0 linker stubs
+.v4_bx          0x10007108        0x0
+ .v4_bx         0x10007108        0x0 linker stubs
 
-.iplt           0x10007298        0x0
- .iplt          0x10007298        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x10007108        0x0
+ .iplt          0x10007108        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x10007298      0x6f8
+.rodata         0x10007108      0x6f0
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.main.str1.4
-                0x10007298      0x1b7 CMakeFiles/main_display.dir/main_display.c.obj
-                                 0x31 (size before relaxing)
- *fill*         0x1000744f        0x1 
- .rodata.ASCII  0x10007450      0x1e0 CMakeFiles/main_display.dir/font.c.obj
+                0x10007108      0x1af CMakeFiles/main_display.dir/main_display.c.obj
+                                 0x29 (size before relaxing)
+ *fill*         0x100072b7        0x1 
+ .rodata.ASCII  0x100072b8      0x1e0 CMakeFiles/main_display.dir/font.c.obj
  .rodata.spin_lock_claim_unused.str1.4
-                0x10007630       0x1b CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10007498       0x1b CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
  .rodata.user_irq_claim_unused.str1.4
-                0x10007630       0x1b CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10007498       0x1b CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .rodata.hardware_alarm_claim.str1.4
-                0x10007630       0x22 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10007498       0x22 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .rodata.panic.str1.4
-                0x10007630       0x12 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10007498       0x12 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata.hard_assertion_failure.str1.4
-                0x10007630        0xc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10007498        0xc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata._ftoa.str1.4
-                0x10007630       0x15 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10007498       0x15 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata._vsnprintf
-                0x10007630      0x19c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x100077cc        0x4 
+                0x10007498      0x19c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x10007634        0x4 
  .rodata.pow10.0
-                0x100077d0       0x50 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10007638       0x50 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.str1.4
-                0x10007820       0x44 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10007688       0x44 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x10007820        0xc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10007688        0xc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x1000782c        0xc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10007694        0xc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x10007838        0xc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100076a0        0xc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.0
-                0x10007844        0x2 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x10007846        0x2 
+                0x100076ac        0x2 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x100076ae        0x2 
  .rodata._resetd_driver
-                0x10007848       0x18 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x100076b0       0x18 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .rodata.str1.4
-                0x10007860       0x13 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x100076c8       0x13 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .rodata.__bi_182.0
-                0x10007860        0xc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x100076c8        0xc CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .rodata.str1.4
-                0x1000786c       0x2a CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x100076d4       0x2a CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_str
-                0x1000786c       0x18 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x100076d4       0x18 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_cfg
-                0x10007884       0x54 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x100076ec       0x54 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_device
-                0x100078d8       0x12 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10007740       0x12 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.str1.4
-                0x100078ea       0x14 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10007752       0x14 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata.str1.4
-                0x100078ea       0x53 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x100078ea        0x2 
+                0x10007752       0x53 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x10007752        0x2 
  .rodata.tud_task_ext
-                0x100078ec       0x8c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10007754       0x8c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata._usbd_driver
-                0x10007978       0x18 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10007990                        . = ALIGN (0x4)
+                0x100077e0       0x18 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x100077f8                        . = ALIGN (0x4)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x10007990                        . = ALIGN (0x4)
+                0x100077f8                        . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x10007990                        __exidx_start = .
+                0x100077f8                        __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x10007990                        __exidx_end = .
-                0x10007990                        . = ALIGN (0x4)
-                0x10007990                        __binary_info_start = .
+                0x100077f8                        __exidx_end = .
+                0x100077f8                        . = ALIGN (0x4)
+                0x100077f8                        __binary_info_start = .
 
-.binary_info    0x10007990       0x20
+.binary_info    0x100077f8       0x20
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr81
-                0x10007990        0x4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100077f8        0x4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x10007994        0x4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100077fc        0x4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x10007998        0x4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10007800        0x4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x1000799c        0x4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10007804        0x4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x100079a0        0x4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10007808        0x4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x100079a4        0x4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x1000780c        0x4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr22
-                0x100079a8        0x4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10007810        0x4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr182
-                0x100079ac        0x4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x100079b0                        __binary_info_end = .
+                0x10007814        0x4 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10007818                        __binary_info_end = .
 
-.rel.dyn        0x100079b0        0x0
- .rel.iplt      0x100079b0        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x100079b0                        . = ALIGN (0x4)
+.rel.dyn        0x10007818        0x0
+ .rel.iplt      0x10007818        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x10007818                        . = ALIGN (0x4)
 
 .ram_vector_table
                 0x20000000       0xc0
@@ -2328,7 +2326,7 @@ LOAD /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-no
                 0x20000000       0xc0 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x20000000                ram_vector_table
 
-.data           0x200000c0      0xe28 load address 0x100079b0
+.data           0x200000c0      0xe28 load address 0x10007818
                 0x200000c0                        __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -2467,36 +2465,36 @@ LOAD /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-no
  *(.jcr)
                 0x20000ee8                        . = ALIGN (0x4)
                 0x20000ee8                        __data_end__ = .
-                0x100079b0                        __etext = LOADADDR (.data)
+                0x10007818                        __etext = LOADADDR (.data)
 
 .tm_clone_table
-                0x20000ee8        0x0 load address 0x100087d8
+                0x20000ee8        0x0 load address 0x10008640
  .tm_clone_table
                 0x20000ee8        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x20000ee8        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x20000ee8        0x0 load address 0x100087d8
+.igot.plt       0x20000ee8        0x0 load address 0x10008640
  .igot.plt      0x20000ee8        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x20000ee8        0x0 load address 0x100087d8
+                0x20000ee8        0x0 load address 0x10008640
                 0x20000ee8                        . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x20040000        0x0 load address 0x100087d8
+.scratch_x      0x20040000        0x0 load address 0x10008640
                 0x20040000                        __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20040000                        . = ALIGN (0x4)
                 0x20040000                        __scratch_x_end__ = .
-                0x100087d8                        __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x10008640                        __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20041000        0x0 load address 0x100087d8
+.scratch_y      0x20041000        0x0 load address 0x10008640
                 0x20041000                        __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20041000                        . = ALIGN (0x4)
                 0x20041000                        __scratch_y_end__ = .
-                0x100087d8                        __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x10008640                        __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x20000ee8      0xf88
                 0x20000ee8                        . = ALIGN (0x4)
@@ -2617,8 +2615,8 @@ LOAD /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-no
  *(.stack*)
  .stack         0x20041000      0x800 CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x100087d8        0x0
-                0x100087d8                        PROVIDE (__flash_binary_end = .)
+.flash_end      0x10008640        0x0
+                0x10008640                        PROVIDE (__flash_binary_end = .)
                 0x20040000                        __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20041000                        __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20042000                        __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -2700,7 +2698,7 @@ LOAD CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib
 LOAD CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 LOAD CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 LOAD CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-LOAD /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//cclcxi9e.o
+LOAD /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//ccSIvHxo.o
 LOAD /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -2822,7 +2820,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000826       0x2c CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
  .ARM.attributes
-                0x00000852       0x22 /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//cclcxi9e.o
+                0x00000852       0x22 /var/folders/dh/47h3w2hd0k9_3hlr7cvkycsm0000gn/T//ccSIvHxo.o
  .ARM.attributes
                 0x00000874       0x1e /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
