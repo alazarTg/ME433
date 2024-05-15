@@ -178,3 +178,6 @@
 /Users/alazartegegnework/me433/hw/ME433/build/HW5/CMakeFiles/main.dir
 /Users/alazartegegnework/me433/hw/ME433/build/HW5/CMakeFiles/edit_cache.dir
 /Users/alazartegegnework/me433/hw/ME433/build/HW5/CMakeFiles/rebuild_cache.dir
+/Users/alazartegegnework/me433/hw/ME433/build/HW6/CMakeFiles/main_display.dir
+/Users/alazartegegnework/me433/hw/ME433/build/HW6/CMakeFiles/edit_cache.dir
+/Users/alazartegegnework/me433/hw/ME433/build/HW6/CMakeFiles/rebuild_cache.dir

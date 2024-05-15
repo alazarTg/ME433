@@ -69,24 +69,10 @@ include HW5/CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include HW5/CMakeFiles/main.dir/flags.make
 
-HW5/CMakeFiles/main.dir/I2C_communication.c.obj: HW5/CMakeFiles/main.dir/flags.make
-HW5/CMakeFiles/main.dir/I2C_communication.c.obj: /Users/alazartegegnework/me433/hw/ME433/HW5/I2C_communication.c
-HW5/CMakeFiles/main.dir/I2C_communication.c.obj: HW5/CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alazartegegnework/me433/hw/ME433/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object HW5/CMakeFiles/main.dir/I2C_communication.c.obj"
-	cd /Users/alazartegegnework/me433/hw/ME433/build/HW5 && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT HW5/CMakeFiles/main.dir/I2C_communication.c.obj -MF CMakeFiles/main.dir/I2C_communication.c.obj.d -o CMakeFiles/main.dir/I2C_communication.c.obj -c /Users/alazartegegnework/me433/hw/ME433/HW5/I2C_communication.c
-
-HW5/CMakeFiles/main.dir/I2C_communication.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/I2C_communication.c.i"
-	cd /Users/alazartegegnework/me433/hw/ME433/build/HW5 && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/alazartegegnework/me433/hw/ME433/HW5/I2C_communication.c > CMakeFiles/main.dir/I2C_communication.c.i
-
-HW5/CMakeFiles/main.dir/I2C_communication.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/I2C_communication.c.s"
-	cd /Users/alazartegegnework/me433/hw/ME433/build/HW5 && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/alazartegegnework/me433/hw/ME433/HW5/I2C_communication.c -o CMakeFiles/main.dir/I2C_communication.c.s
-
 HW5/CMakeFiles/main.dir/main.c.obj: HW5/CMakeFiles/main.dir/flags.make
 HW5/CMakeFiles/main.dir/main.c.obj: /Users/alazartegegnework/me433/hw/ME433/HW5/main.c
 HW5/CMakeFiles/main.dir/main.c.obj: HW5/CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alazartegegnework/me433/hw/ME433/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object HW5/CMakeFiles/main.dir/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alazartegegnework/me433/hw/ME433/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object HW5/CMakeFiles/main.dir/main.c.obj"
 	cd /Users/alazartegegnework/me433/hw/ME433/build/HW5 && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT HW5/CMakeFiles/main.dir/main.c.obj -MF CMakeFiles/main.dir/main.c.obj.d -o CMakeFiles/main.dir/main.c.obj -c /Users/alazartegegnework/me433/hw/ME433/HW5/main.c
 
 HW5/CMakeFiles/main.dir/main.c.i: cmake_force
@@ -96,6 +82,20 @@ HW5/CMakeFiles/main.dir/main.c.i: cmake_force
 HW5/CMakeFiles/main.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/main.c.s"
 	cd /Users/alazartegegnework/me433/hw/ME433/build/HW5 && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/alazartegegnework/me433/hw/ME433/HW5/main.c -o CMakeFiles/main.dir/main.c.s
+
+HW5/CMakeFiles/main.dir/I2C_communication.c.obj: HW5/CMakeFiles/main.dir/flags.make
+HW5/CMakeFiles/main.dir/I2C_communication.c.obj: /Users/alazartegegnework/me433/hw/ME433/HW5/I2C_communication.c
+HW5/CMakeFiles/main.dir/I2C_communication.c.obj: HW5/CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alazartegegnework/me433/hw/ME433/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object HW5/CMakeFiles/main.dir/I2C_communication.c.obj"
+	cd /Users/alazartegegnework/me433/hw/ME433/build/HW5 && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT HW5/CMakeFiles/main.dir/I2C_communication.c.obj -MF CMakeFiles/main.dir/I2C_communication.c.obj.d -o CMakeFiles/main.dir/I2C_communication.c.obj -c /Users/alazartegegnework/me433/hw/ME433/HW5/I2C_communication.c
+
+HW5/CMakeFiles/main.dir/I2C_communication.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/I2C_communication.c.i"
+	cd /Users/alazartegegnework/me433/hw/ME433/build/HW5 && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/alazartegegnework/me433/hw/ME433/HW5/I2C_communication.c > CMakeFiles/main.dir/I2C_communication.c.i
+
+HW5/CMakeFiles/main.dir/I2C_communication.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/I2C_communication.c.s"
+	cd /Users/alazartegegnework/me433/hw/ME433/build/HW5 && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/alazartegegnework/me433/hw/ME433/HW5/I2C_communication.c -o CMakeFiles/main.dir/I2C_communication.c.s
 
 HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: HW5/CMakeFiles/main.dir/flags.make
 HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
@@ -1054,8 +1054,8 @@ HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_comm
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/I2C_communication.c.obj" \
 "CMakeFiles/main.dir/main.c.obj" \
+"CMakeFiles/main.dir/I2C_communication.c.obj" \
 "CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
 "CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
@@ -1129,8 +1129,8 @@ main_OBJECTS = \
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-HW5/main.elf: HW5/CMakeFiles/main.dir/I2C_communication.c.obj
 HW5/main.elf: HW5/CMakeFiles/main.dir/main.c.obj
+HW5/main.elf: HW5/CMakeFiles/main.dir/I2C_communication.c.obj
 HW5/main.elf: HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 HW5/main.elf: HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 HW5/main.elf: HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj

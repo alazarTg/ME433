@@ -3,7 +3,6 @@
 #include "pico/stdlib.h"
 #include "pico/binary_info.h"
 #include "hardware/i2c.h"
-#include <string.h>
 #include <stdlib.h>
 
 // Address of chip used for I2C communication

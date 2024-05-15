@@ -246,6 +246,19 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+#=============================================================================
+# Target rules for targets named main_display
+
+# Build rule for target.
+main_display: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main_display
+.PHONY : main_display
+
+# fast build rule for target.
+main_display/fast:
+	$(MAKE) $(MAKESILENT) -f HW6/CMakeFiles/main_display.dir/build.make HW6/CMakeFiles/main_display.dir/build
+.PHONY : main_display/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -264,6 +277,7 @@ help:
 	@echo "... blink"
 	@echo "... bs2_default"
 	@echo "... main"
+	@echo "... main_display"
 .PHONY : help
 
 
