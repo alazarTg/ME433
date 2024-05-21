@@ -272,6 +272,19 @@ UART_comm/fast:
 	$(MAKE) $(MAKESILENT) -f HW7/CMakeFiles/UART_comm.dir/build.make HW7/CMakeFiles/UART_comm.dir/build
 .PHONY : UART_comm/fast
 
+#=============================================================================
+# Target rules for targets named Pico_to_zero
+
+# Build rule for target.
+Pico_to_zero: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Pico_to_zero
+.PHONY : Pico_to_zero
+
+# fast build rule for target.
+Pico_to_zero/fast:
+	$(MAKE) $(MAKESILENT) -f HW9/CMakeFiles/Pico_to_zero.dir/build.make HW9/CMakeFiles/Pico_to_zero.dir/build
+.PHONY : Pico_to_zero/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -287,6 +300,7 @@ help:
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 	@echo "... CDC_comm"
 	@echo "... DAC_MCP4912"
+	@echo "... Pico_to_zero"
 	@echo "... UART_comm"
 	@echo "... blink"
 	@echo "... bs2_default"

@@ -46,6 +46,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/alazartegegnework/me433/hw/ME433/build/HW5/cmake_install.cmake")
   include("/Users/alazartegegnework/me433/hw/ME433/build/HW6/cmake_install.cmake")
   include("/Users/alazartegegnework/me433/hw/ME433/build/HW7/cmake_install.cmake")
+  include("/Users/alazartegegnework/me433/hw/ME433/build/HW9/cmake_install.cmake")
 
 endif()
 

@@ -184,3 +184,6 @@
 /Users/alazartegegnework/me433/hw/ME433/build/HW7/CMakeFiles/UART_comm.dir
 /Users/alazartegegnework/me433/hw/ME433/build/HW7/CMakeFiles/edit_cache.dir
 /Users/alazartegegnework/me433/hw/ME433/build/HW7/CMakeFiles/rebuild_cache.dir
+/Users/alazartegegnework/me433/hw/ME433/build/HW9/CMakeFiles/Pico_to_zero.dir
+/Users/alazartegegnework/me433/hw/ME433/build/HW9/CMakeFiles/edit_cache.dir
+/Users/alazartegegnework/me433/hw/ME433/build/HW9/CMakeFiles/rebuild_cache.dir
