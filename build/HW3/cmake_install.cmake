@@ -1,4 +1,4 @@
-# Install script for directory: /Users/alazartegegnework/me433/hw/ME433/HW3
+# Install script for directory: /Users/alazartegegnework/me433/HW/ME433/HW3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

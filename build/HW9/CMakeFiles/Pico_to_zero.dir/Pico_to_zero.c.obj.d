@@ -1,5 +1,5 @@
 HW9/CMakeFiles/Pico_to_zero.dir/Pico_to_zero.c.obj: \
- /Users/alazartegegnework/me433/hw/ME433/HW9/Pico_to_zero.c \
+ /Users/alazartegegnework/me433/HW/ME433/HW9/Pico_to_zero.c \
  /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/stdio.h \
  /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
  /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
@@ -31,9 +31,9 @@ HW9/CMakeFiles/Pico_to_zero.dir/Pico_to_zero.c.obj: \
  /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
  /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
  /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
- /Users/alazartegegnework/me433/hw/ME433/build/generated/pico_base/pico/version.h \
+ /Users/alazartegegnework/me433/HW/ME433/build/generated/pico_base/pico/version.h \
  /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/config.h \
- /Users/alazartegegnework/me433/hw/ME433/build/generated/pico_base/pico/config_autogen.h \
+ /Users/alazartegegnework/me433/HW/ME433/build/generated/pico_base/pico/config_autogen.h \
  /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \

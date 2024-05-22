@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/alazartegegnework/me433/hw/ME433
+CMAKE_SOURCE_DIR = /Users/alazartegegnework/me433/HW/ME433
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/alazartegegnework/me433/hw/ME433/build
+CMAKE_BINARY_DIR = /Users/alazartegegnework/me433/HW/ME433/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/hw/ME433/build/CMakeFiles /Users/alazartegegnework/me433/hw/ME433/build/HW5//CMakeFiles/progress.marks
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HW5/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/hw/ME433/build/CMakeFiles 0
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles /Users/alazartegegnework/me433/HW/ME433/build/HW5//CMakeFiles/progress.marks
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HW5/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HW5/clean
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HW5/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HW5/preinstall
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HW5/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HW5/preinstall
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HW5/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 HW5/CMakeFiles/main.dir/rule:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HW5/CMakeFiles/main.dir/rule
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HW5/CMakeFiles/main.dir/rule
 .PHONY : HW5/CMakeFiles/main.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ main: HW5/CMakeFiles/main.dir/rule
 
 # fast build rule for target.
 main/fast:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/build
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/build
 .PHONY : main/fast
 
 I2C_communication.obj: I2C_communication.c.obj
@@ -135,7 +135,7 @@ I2C_communication.obj: I2C_communication.c.obj
 
 # target to build an object file
 I2C_communication.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/I2C_communication.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/I2C_communication.c.obj
 .PHONY : I2C_communication.c.obj
 
 I2C_communication.i: I2C_communication.c.i
@@ -143,7 +143,7 @@ I2C_communication.i: I2C_communication.c.i
 
 # target to preprocess a source file
 I2C_communication.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/I2C_communication.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/I2C_communication.c.i
 .PHONY : I2C_communication.c.i
 
 I2C_communication.s: I2C_communication.c.s
@@ -151,7 +151,7 @@ I2C_communication.s: I2C_communication.c.s
 
 # target to generate assembly for a file
 I2C_communication.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/I2C_communication.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/I2C_communication.c.s
 .PHONY : I2C_communication.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
@@ -159,7 +159,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_de
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
@@ -167,7 +167,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_de
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
@@ -175,7 +175,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_de
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
@@ -183,7 +183,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
@@ -191,7 +191,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
@@ -199,7 +199,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
@@ -207,7 +207,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
@@ -215,7 +215,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
@@ -223,7 +223,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
@@ -231,7 +231,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_dev
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
@@ -239,7 +239,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_dev
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
@@ -247,7 +247,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_dev
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
@@ -255,7 +255,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
@@ -263,7 +263,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
@@ -271,7 +271,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
@@ -279,7 +279,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_devi
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
@@ -287,7 +287,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_devi
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
@@ -295,7 +295,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_devi
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
@@ -303,7 +303,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
@@ -311,7 +311,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
@@ -319,7 +319,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
@@ -327,7 +327,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
@@ -335,7 +335,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
@@ -343,7 +343,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
@@ -351,7 +351,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
@@ -359,7 +359,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
@@ -367,7 +367,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
@@ -375,7 +375,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
@@ -383,7 +383,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
@@ -391,7 +391,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
@@ -399,7 +399,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
@@ -407,7 +407,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
@@ -415,7 +415,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
@@ -423,7 +423,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/video/video_de
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
@@ -431,7 +431,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/video/video_de
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
@@ -439,7 +439,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/video/video_de
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
@@ -447,7 +447,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
@@ -455,7 +455,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: 
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
@@ -463,7 +463,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: 
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.obj: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
@@ -471,7 +471,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.obj: Use
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.i: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
@@ -479,7 +479,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.i: Users
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.s: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
@@ -487,7 +487,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.s: Users
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
@@ -495,7 +495,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
@@ -503,7 +503,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
@@ -511,7 +511,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
@@ -519,7 +519,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
@@ -527,7 +527,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
@@ -535,7 +535,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
@@ -543,7 +543,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
@@ -551,7 +551,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
@@ -559,7 +559,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.obj: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
@@ -567,7 +567,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.obj: Users/alaz
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.i: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.c.i
@@ -575,7 +575,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.i: Users/alazar
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.s: Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.c.s
@@ -583,7 +583,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.s: Users/alazar
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/critical_section.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
@@ -591,7 +591,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/critical_sectio
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/critical_section.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/critical_section.c.i
@@ -599,7 +599,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/critical_sectio
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/critical_section.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/critical_section.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/critical_section.c.s
@@ -607,7 +607,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/critical_sectio
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/critical_section.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/lock_core.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
@@ -615,7 +615,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/lock_core.obj: 
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/lock_core.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/lock_core.c.i
@@ -623,7 +623,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/lock_core.i: Us
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/lock_core.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/lock_core.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/lock_core.c.s
@@ -631,7 +631,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/lock_core.s: Us
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/lock_core.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/mutex.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
@@ -639,7 +639,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/mutex.obj: User
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/mutex.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/mutex.c.i
@@ -647,7 +647,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/mutex.i: Users/
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/mutex.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/mutex.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/mutex.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/mutex.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/mutex.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/mutex.c.s
@@ -655,7 +655,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/mutex.s: Users/
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/mutex.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/mutex.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/mutex.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/mutex.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/sem.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/sem.c.obj
@@ -663,7 +663,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/sem.obj: Users/
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/sem.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/sem.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/sem.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/sem.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/sem.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/sem.c.i
@@ -671,7 +671,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/sem.i: Users/al
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/sem.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/sem.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/sem.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/sem.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/sem.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/sem.c.s
@@ -679,7 +679,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/sem.s: Users/al
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/sem.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/sem.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/sem.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/sem.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
@@ -687,7 +687,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.obj: Users
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.i
@@ -695,7 +695,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.i: Users/a
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.s
@@ -703,7 +703,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.s: Users/a
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/timeout_helper.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
@@ -711,7 +711,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/timeout_helper.
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/timeout_helper.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
@@ -719,7 +719,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/timeout_helper.
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/timeout_helper.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
@@ -727,7 +727,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/timeout_helper.
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/datetime.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/datetime.c.obj
@@ -735,7 +735,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/datetime.obj: U
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/datetime.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/datetime.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/datetime.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/datetime.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/datetime.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/datetime.c.i
@@ -743,7 +743,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/datetime.i: Use
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/datetime.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/datetime.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/datetime.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/datetime.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/datetime.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/datetime.c.s
@@ -751,7 +751,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/datetime.s: Use
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/datetime.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/datetime.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/datetime.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/datetime.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
@@ -759,7 +759,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.obj: User
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.i
@@ -767,7 +767,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.i: Users/
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.s
@@ -775,7 +775,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.s: Users/
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/queue.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/queue.c.obj
@@ -783,7 +783,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/queue.obj: User
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/queue.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/queue.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/queue.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/queue.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/queue.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/queue.c.i
@@ -791,7 +791,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/queue.i: Users/
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/queue.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/queue.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/queue.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/queue.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/queue.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/queue.c.s
@@ -799,7 +799,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/queue.s: Users/
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/queue.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/queue.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/queue.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
@@ -807,7 +807,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
@@ -815,7 +815,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
@@ -823,7 +823,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
@@ -831,7 +831,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clock
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
@@ -839,7 +839,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clock
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
@@ -847,7 +847,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clock
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
@@ -855,7 +855,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_divider/divi
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
@@ -863,7 +863,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
@@ -871,7 +871,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
@@ -879,7 +879,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
@@ -887,7 +887,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.ob
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
@@ -895,7 +895,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i:
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
@@ -903,7 +903,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s:
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
@@ -911,7 +911,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj:
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
@@ -919,7 +919,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i: U
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
@@ -927,7 +927,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s: U
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
@@ -935,7 +935,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj:
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
@@ -943,7 +943,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: U
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
@@ -951,7 +951,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: U
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
@@ -959,7 +959,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_hand
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
@@ -967,7 +967,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj:
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
@@ -975,7 +975,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: U
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
@@ -983,7 +983,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: U
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
@@ -991,7 +991,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.ob
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
@@ -999,7 +999,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.i:
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
@@ -1007,7 +1007,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.s:
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
@@ -1015,7 +1015,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
@@ -1023,7 +1023,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
@@ -1031,7 +1031,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
@@ -1039,7 +1039,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.ob
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
@@ -1047,7 +1047,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.i:
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
@@ -1055,7 +1055,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.s:
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
@@ -1063,7 +1063,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.ob
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
@@ -1071,7 +1071,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i:
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
@@ -1079,7 +1079,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s:
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
@@ -1087,7 +1087,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/wat
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
@@ -1095,7 +1095,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/wat
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
@@ -1103,7 +1103,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/wat
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
@@ -1111,7 +1111,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.ob
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
@@ -1119,7 +1119,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i:
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
@@ -1127,7 +1127,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s:
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
@@ -1135,7 +1135,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
@@ -1143,7 +1143,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
@@ -1151,7 +1151,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
@@ -1159,7 +1159,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_divider/divider.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
@@ -1167,7 +1167,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_divider/divider.
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
@@ -1175,7 +1175,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_ae
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
@@ -1183,7 +1183,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_in
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
@@ -1191,7 +1191,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_in
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
@@ -1199,7 +1199,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_in
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
@@ -1207,7 +1207,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_ma
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_math.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
@@ -1215,7 +1215,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_ma
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_math.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
@@ -1223,7 +1223,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_ma
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
@@ -1231,7 +1231,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
@@ -1239,7 +1239,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_d
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
@@ -1247,7 +1247,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_d
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
@@ -1255,7 +1255,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_d
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
@@ -1263,7 +1263,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_aeab
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
@@ -1271,7 +1271,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_init
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
@@ -1279,7 +1279,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_init
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
@@ -1287,7 +1287,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_init
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
@@ -1295,7 +1295,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_math
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_math.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
@@ -1303,7 +1303,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_math
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_math.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
@@ -1311,7 +1311,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_math
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
@@ -1319,7 +1319,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_r
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
@@ -1327,7 +1327,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_i
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
@@ -1335,7 +1335,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_mall
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
@@ -1343,7 +1343,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_mall
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
@@ -1351,7 +1351,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_mall
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
@@ -1359,7 +1359,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/platform.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -1367,7 +1367,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/platfor
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/platform.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
@@ -1375,7 +1375,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/platfor
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/platform.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
@@ -1383,7 +1383,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/platfor
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
@@ -1391,7 +1391,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.ob
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
@@ -1399,7 +1399,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.i:
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
@@ -1407,7 +1407,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.s:
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
@@ -1415,7 +1415,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
@@ -1423,7 +1423,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
@@ -1431,7 +1431,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
@@ -1439,7 +1439,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/bi
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
@@ -1447,7 +1447,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/bi
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
@@ -1455,7 +1455,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/bi
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1463,7 +1463,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/cr
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
@@ -1471,7 +1471,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/ne
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
@@ -1479,7 +1479,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/ne
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
@@ -1487,7 +1487,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/ne
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
@@ -1495,7 +1495,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj:
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
@@ -1503,7 +1503,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: U
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
@@ -1511,7 +1511,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: U
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
@@ -1519,7 +1519,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
@@ -1527,7 +1527,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
@@ -1535,7 +1535,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
@@ -1543,7 +1543,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
@@ -1551,7 +1551,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
@@ -1559,7 +1559,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
@@ -1567,7 +1567,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
@@ -1575,7 +1575,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
@@ -1583,7 +1583,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -1591,7 +1591,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.ob
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
@@ -1599,7 +1599,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i:
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
@@ -1607,7 +1607,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s:
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
@@ -1615,7 +1615,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique
 
 # target to build an object file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
@@ -1623,7 +1623,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique
 
 # target to preprocess a source file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
@@ -1631,7 +1631,7 @@ Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique
 
 # target to generate assembly for a file
 Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
 main.obj: main.c.obj
@@ -1639,7 +1639,7 @@ main.obj: main.c.obj
 
 # target to build an object file
 main.c.obj:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/main.c.obj
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -1647,7 +1647,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/main.c.i
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -1655,7 +1655,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/main.c.s
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -1869,6 +1869,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/alazartegegnework/me433/hw/ME433/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/alazartegegnework/me433/HW/ME433/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

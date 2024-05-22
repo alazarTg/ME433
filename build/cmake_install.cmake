@@ -1,4 +1,4 @@
-# Install script for directory: /Users/alazartegegnework/me433/hw/ME433
+# Install script for directory: /Users/alazartegegnework/me433/HW/ME433
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,14 +39,15 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/alazartegegnework/me433/hw/ME433/build/pico-sdk/cmake_install.cmake")
-  include("/Users/alazartegegnework/me433/hw/ME433/build/HW2/cmake_install.cmake")
-  include("/Users/alazartegegnework/me433/hw/ME433/build/HW3/cmake_install.cmake")
-  include("/Users/alazartegegnework/me433/hw/ME433/build/HW4/cmake_install.cmake")
-  include("/Users/alazartegegnework/me433/hw/ME433/build/HW5/cmake_install.cmake")
-  include("/Users/alazartegegnework/me433/hw/ME433/build/HW6/cmake_install.cmake")
-  include("/Users/alazartegegnework/me433/hw/ME433/build/HW7/cmake_install.cmake")
-  include("/Users/alazartegegnework/me433/hw/ME433/build/HW9/cmake_install.cmake")
+  include("/Users/alazartegegnework/me433/HW/ME433/build/pico-sdk/cmake_install.cmake")
+  include("/Users/alazartegegnework/me433/HW/ME433/build/HW2/cmake_install.cmake")
+  include("/Users/alazartegegnework/me433/HW/ME433/build/HW3/cmake_install.cmake")
+  include("/Users/alazartegegnework/me433/HW/ME433/build/HW4/cmake_install.cmake")
+  include("/Users/alazartegegnework/me433/HW/ME433/build/HW5/cmake_install.cmake")
+  include("/Users/alazartegegnework/me433/HW/ME433/build/HW6/cmake_install.cmake")
+  include("/Users/alazartegegnework/me433/HW/ME433/build/HW7/cmake_install.cmake")
+  include("/Users/alazartegegnework/me433/HW/ME433/build/HW9/cmake_install.cmake")
+  include("/Users/alazartegegnework/me433/HW/ME433/build/HW12/cmake_install.cmake")
 
 endif()
 
@@ -58,5 +59,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/alazartegegnework/me433/hw/ME433/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/alazartegegnework/me433/HW/ME433/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

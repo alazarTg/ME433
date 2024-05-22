@@ -17,6 +17,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
@@ -33,9 +35,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -64,6 +64,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
@@ -102,9 +104,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -122,6 +122,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
@@ -138,9 +140,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -158,6 +158,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
@@ -174,9 +176,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -194,6 +194,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
@@ -210,9 +212,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -230,6 +230,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
@@ -246,9 +248,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -266,6 +266,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
@@ -282,9 +284,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -302,6 +302,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
@@ -318,9 +320,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -338,6 +338,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
@@ -354,9 +356,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -374,6 +374,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
@@ -390,9 +392,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -410,6 +410,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
@@ -426,9 +428,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -446,6 +446,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
@@ -462,9 +464,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -493,6 +493,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
@@ -527,9 +529,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -558,6 +558,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid.h \
@@ -600,9 +602,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -631,6 +631,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid.h \
@@ -672,9 +674,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -703,6 +703,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
@@ -747,9 +749,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -781,6 +781,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
@@ -815,9 +817,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/tusb.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -846,6 +846,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid.h \
@@ -887,9 +889,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/critical_section.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -907,6 +907,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -925,9 +927,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/lock_core.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -945,6 +945,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -962,9 +964,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/mutex.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -982,6 +982,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -1000,9 +1002,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/sem.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_sync/sem.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -1020,6 +1020,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -1038,9 +1040,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/time.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -1074,6 +1074,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/syslimits.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -1096,9 +1098,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_time/timeout_helper.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -1116,6 +1116,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -1132,9 +1134,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/datetime.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/datetime.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -1159,6 +1159,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -1170,9 +1172,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/pheap.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -1200,6 +1200,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -1211,9 +1213,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/queue.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/queue.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -1242,6 +1242,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -1260,9 +1262,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -1280,6 +1280,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -1307,9 +1309,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -1327,6 +1327,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -1340,9 +1342,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/include/hardware/claim.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -1360,6 +1360,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -1393,9 +1395,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -1413,6 +1413,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -1430,9 +1432,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -1450,6 +1450,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -1472,9 +1474,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -1492,6 +1492,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -1518,9 +1520,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -1538,6 +1538,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -1561,9 +1563,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -1581,6 +1581,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -1601,9 +1603,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -1621,6 +1621,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -1634,9 +1636,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_claim/include/hardware/claim.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -1654,6 +1654,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -1673,9 +1675,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -1693,6 +1693,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -1717,9 +1719,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -1737,6 +1737,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -1751,9 +1753,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_vreg/include/hardware/vreg.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -1778,6 +1778,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -1794,9 +1796,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -1814,6 +1814,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -1831,9 +1833,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -1851,6 +1851,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -1862,9 +1864,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -1890,6 +1890,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -1902,9 +1904,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -1927,6 +1927,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -1939,9 +1941,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/include/pico/double.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -1959,6 +1959,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -1987,9 +1989,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include/pico/fix/rp2040_usb_device_enumeration.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -2015,6 +2015,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -2027,9 +2029,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -2053,6 +2053,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -2065,9 +2067,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/include/pico/float.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -2092,6 +2092,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -2103,9 +2105,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_malloc/include/pico/malloc.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -2123,6 +2123,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -2136,9 +2138,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/tbman.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -2164,6 +2164,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -2175,9 +2177,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -2221,6 +2221,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -2253,9 +2255,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -2273,6 +2273,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -2288,9 +2290,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/boot_stage2/include/boot_stage2/config.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -2322,6 +2322,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -2332,9 +2334,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -2377,6 +2377,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -2399,9 +2401,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -2430,6 +2430,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid.h \
@@ -2476,9 +2478,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -2507,6 +2507,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid.h \
@@ -2555,9 +2557,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -2586,6 +2586,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid.h \
@@ -2628,9 +2630,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -2648,6 +2648,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -2690,9 +2692,7 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
 
 HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -2710,6 +2710,8 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -2722,11 +2724,9 @@ HW6/CMakeFiles/main_display.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h
 
-HW6/CMakeFiles/main_display.dir/font.c.obj: /Users/alazartegegnework/me433/hw/ME433/HW6/font.c \
+HW6/CMakeFiles/main_display.dir/font.c.obj: /Users/alazartegegnework/me433/HW/ME433/HW6/font.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/alloca.h \
@@ -2757,6 +2757,10 @@ HW6/CMakeFiles/main_display.dir/font.c.obj: /Users/alazartegegnework/me433/hw/ME
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  /Users/alazartegegnework/me433/HW/ME433/HW6/font.h \
+  /Users/alazartegegnework/me433/HW/ME433/HW6/ssd1306.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -2796,13 +2800,9 @@ HW6/CMakeFiles/main_display.dir/font.c.obj: /Users/alazartegegnework/me433/hw/ME
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /Users/alazartegegnework/me433/hw/ME433/HW6/font.h \
-  /Users/alazartegegnework/me433/hw/ME433/HW6/ssd1306.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
 
-HW6/CMakeFiles/main_display.dir/main_display.c.obj: /Users/alazartegegnework/me433/hw/ME433/HW6/main_display.c \
+HW6/CMakeFiles/main_display.dir/main_display.c.obj: /Users/alazartegegnework/me433/HW/ME433/HW6/main_display.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/alloca.h \
@@ -2833,6 +2833,10 @@ HW6/CMakeFiles/main_display.dir/main_display.c.obj: /Users/alazartegegnework/me4
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  /Users/alazartegegnework/me433/HW/ME433/HW6/font.h \
+  /Users/alazartegegnework/me433/HW/ME433/HW6/ssd1306.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -2875,13 +2879,9 @@ HW6/CMakeFiles/main_display.dir/main_display.c.obj: /Users/alazartegegnework/me4
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /Users/alazartegegnework/me433/hw/ME433/HW6/font.h \
-  /Users/alazartegegnework/me433/hw/ME433/HW6/ssd1306.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
 
-HW6/CMakeFiles/main_display.dir/ssd1306.c.obj: /Users/alazartegegnework/me433/hw/ME433/HW6/ssd1306.c \
+HW6/CMakeFiles/main_display.dir/ssd1306.c.obj: /Users/alazartegegnework/me433/HW/ME433/HW6/ssd1306.c \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/alloca.h \
@@ -2911,6 +2911,9 @@ HW6/CMakeFiles/main_display.dir/ssd1306.c.obj: /Users/alazartegegnework/me433/hw
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+  /Users/alazartegegnework/me433/HW/ME433/HW6/ssd1306.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/boards/include/boards/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -2950,17 +2953,16 @@ HW6/CMakeFiles/main_display.dir/ssd1306.c.obj: /Users/alazartegegnework/me433/hw
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
   /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /Users/alazartegegnework/me433/hw/ME433/HW6/ssd1306.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
 
 
-/Users/alazartegegnework/me433/hw/ME433/HW6/ssd1306.h:
+/Users/alazartegegnework/me433/HW/ME433/HW6/main_display.c:
 
-/Users/alazartegegnework/me433/hw/ME433/HW6/font.h:
+/Users/alazartegegnework/me433/HW/ME433/HW6/ssd1306.h:
 
-/Users/alazartegegnework/me433/hw/ME433/HW6/font.c:
+/Users/alazartegegnework/me433/HW/ME433/HW6/font.h:
+
+/Users/alazartegegnework/me433/HW/ME433/HW6/font.c:
 
 /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c:
 
@@ -2997,8 +2999,6 @@ HW6/CMakeFiles/main_display.dir/ssd1306.c.obj: /Users/alazartegegnework/me433/hw
 /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h:
 
 /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h:
-
-/Users/alazartegegnework/me433/hw/ME433/HW6/main_display.c:
 
 /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c:
 
@@ -3083,8 +3083,6 @@ HW6/CMakeFiles/main_display.dir/ssd1306.c.obj: /Users/alazartegegnework/me433/hw
 /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h:
 
 /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c:
-
-/Users/alazartegegnework/me433/hw/ME433/HW6/ssd1306.c:
 
 /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c:
 
@@ -3314,6 +3312,8 @@ generated/pico_base/pico/version.h:
 
 /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h:
 
+/Users/alazartegegnework/me433/HW/ME433/HW6/ssd1306.c:
+
 /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h:
 
 /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp:
@@ -3347,12 +3347,6 @@ generated/pico_base/pico/version.h:
 /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c:
 
 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/string.h:
-
-/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/types.h:
-
-/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c:
-
-generated/pico_base/pico/config_autogen.h:
 
 /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_base/include/pico/types.h:
 
@@ -3406,6 +3400,12 @@ generated/pico_base/pico/config_autogen.h:
 
 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/string.h:
 
+/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/types.h:
+
+/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c:
+
+generated/pico_base/pico/config_autogen.h:
+
 /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c:
 
 /Users/alazartegegnework/me433/Pico/pico-sdk/src/common/pico_util/include/pico/util/queue.h:
@@ -3430,8 +3430,6 @@ generated/pico_base/pico/config_autogen.h:
 
 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h:
 
-/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h:
-
 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/machine/stdlib.h:
 
 /Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/device/dcd.h:
@@ -3447,3 +3445,5 @@ generated/pico_base/pico/config_autogen.h:
 /Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h:
 
 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h:
+
+/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h:

@@ -8,17 +8,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S" "/Users/alazartegegnework/me433/hw/ME433/build/HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
-  "/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S" "/Users/alazartegegnework/me433/hw/ME433/build/HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
-  "/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "/Users/alazartegegnework/me433/hw/ME433/build/HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
-  "/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S" "/Users/alazartegegnework/me433/hw/ME433/build/HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
-  "/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S" "/Users/alazartegegnework/me433/hw/ME433/build/HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
-  "/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S" "/Users/alazartegegnework/me433/hw/ME433/build/HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
-  "/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S" "/Users/alazartegegnework/me433/hw/ME433/build/HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
-  "/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S" "/Users/alazartegegnework/me433/hw/ME433/build/HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
-  "/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S" "/Users/alazartegegnework/me433/hw/ME433/build/HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
-  "/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S" "/Users/alazartegegnework/me433/hw/ME433/build/HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
-  "/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S" "/Users/alazartegegnework/me433/hw/ME433/build/HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+  "/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S" "/Users/alazartegegnework/me433/HW/ME433/build/HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+  "/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S" "/Users/alazartegegnework/me433/HW/ME433/build/HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+  "/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "/Users/alazartegegnework/me433/HW/ME433/build/HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+  "/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S" "/Users/alazartegegnework/me433/HW/ME433/build/HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+  "/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S" "/Users/alazartegegnework/me433/HW/ME433/build/HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+  "/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S" "/Users/alazartegegnework/me433/HW/ME433/build/HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+  "/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S" "/Users/alazartegegnework/me433/HW/ME433/build/HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+  "/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S" "/Users/alazartegegnework/me433/HW/ME433/build/HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+  "/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S" "/Users/alazartegegnework/me433/HW/ME433/build/HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+  "/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S" "/Users/alazartegegnework/me433/HW/ME433/build/HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+  "/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S" "/Users/alazartegegnework/me433/HW/ME433/build/HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
@@ -120,7 +120,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/alazartegegnework/me433/hw/ME433/HW5/I2C_communication.c" "HW5/CMakeFiles/main.dir/I2C_communication.c.obj" "gcc" "HW5/CMakeFiles/main.dir/I2C_communication.c.obj.d"
+  "/Users/alazartegegnework/me433/HW/ME433/HW5/I2C_communication.c" "HW5/CMakeFiles/main.dir/I2C_communication.c.obj" "gcc" "HW5/CMakeFiles/main.dir/I2C_communication.c.obj.d"
   "/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c" "HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj" "gcc" "HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d"
   "/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c" "HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj" "gcc" "HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj.d"
   "/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c" "HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj" "gcc" "HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj.d"
@@ -178,7 +178,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c" "HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" "gcc" "HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d"
   "/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" "gcc" "HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
-  "/Users/alazartegegnework/me433/hw/ME433/HW5/main.c" "HW5/CMakeFiles/main.dir/main.c.obj" "gcc" "HW5/CMakeFiles/main.dir/main.c.obj.d"
+  "/Users/alazartegegnework/me433/HW/ME433/HW5/main.c" "HW5/CMakeFiles/main.dir/main.c.obj" "gcc" "HW5/CMakeFiles/main.dir/main.c.obj.d"
   "/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "HW5/CMakeFiles/main.dir/Users/alazartegegnework/me433/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
   )
 
