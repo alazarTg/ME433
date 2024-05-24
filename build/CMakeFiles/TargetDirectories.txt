@@ -190,3 +190,6 @@
 /Users/alazartegegnework/me433/HW/ME433/build/HW12/CMakeFiles/Servo_control.dir
 /Users/alazartegegnework/me433/HW/ME433/build/HW12/CMakeFiles/edit_cache.dir
 /Users/alazartegegnework/me433/HW/ME433/build/HW12/CMakeFiles/rebuild_cache.dir
+/Users/alazartegegnework/me433/HW/ME433/build/HW16/CMakeFiles/Motor_controller.dir
+/Users/alazartegegnework/me433/HW/ME433/build/HW16/CMakeFiles/edit_cache.dir
+/Users/alazartegegnework/me433/HW/ME433/build/HW16/CMakeFiles/rebuild_cache.dir

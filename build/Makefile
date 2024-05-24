@@ -298,6 +298,19 @@ Servo_control/fast:
 	$(MAKE) $(MAKESILENT) -f HW12/CMakeFiles/Servo_control.dir/build.make HW12/CMakeFiles/Servo_control.dir/build
 .PHONY : Servo_control/fast
 
+#=============================================================================
+# Target rules for targets named Motor_controller
+
+# Build rule for target.
+Motor_controller: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Motor_controller
+.PHONY : Motor_controller
+
+# fast build rule for target.
+Motor_controller/fast:
+	$(MAKE) $(MAKESILENT) -f HW16/CMakeFiles/Motor_controller.dir/build.make HW16/CMakeFiles/Motor_controller.dir/build
+.PHONY : Motor_controller/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -313,6 +326,7 @@ help:
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 	@echo "... CDC_comm"
 	@echo "... DAC_MCP4912"
+	@echo "... Motor_controller"
 	@echo "... Pico_to_zero"
 	@echo "... Servo_control"
 	@echo "... UART_comm"

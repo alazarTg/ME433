@@ -9,6 +9,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "/Users/alazartegegnework/me433/HW/ME433/CMakeLists.txt"
   "/Users/alazartegegnework/me433/HW/ME433/HW12/CMakeLists.txt"
+  "/Users/alazartegegnework/me433/HW/ME433/HW16/CMakeLists.txt"
   "/Users/alazartegegnework/me433/HW/ME433/HW2/CMakeLists.txt"
   "/Users/alazartegegnework/me433/HW/ME433/HW3/CMakeLists.txt"
   "/Users/alazartegegnework/me433/HW/ME433/HW4/CMakeLists.txt"
@@ -264,6 +265,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "HW7/CMakeFiles/CMakeDirectoryInformation.cmake"
   "HW9/CMakeFiles/CMakeDirectoryInformation.cmake"
   "HW12/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "HW16/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -282,4 +284,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "HW7/CMakeFiles/UART_comm.dir/DependInfo.cmake"
   "HW9/CMakeFiles/Pico_to_zero.dir/DependInfo.cmake"
   "HW12/CMakeFiles/Servo_control.dir/DependInfo.cmake"
+  "HW16/CMakeFiles/Motor_controller.dir/DependInfo.cmake"
   )
