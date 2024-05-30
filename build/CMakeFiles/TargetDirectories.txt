@@ -193,3 +193,9 @@
 /Users/alazartegegnework/me433/HW/ME433/build/HW16/CMakeFiles/Motor_controller.dir
 /Users/alazartegegnework/me433/HW/ME433/build/HW16/CMakeFiles/edit_cache.dir
 /Users/alazartegegnework/me433/HW/ME433/build/HW16/CMakeFiles/rebuild_cache.dir
+/Users/alazartegegnework/me433/HW/ME433/build/HW16_copy/CMakeFiles/Motor_controller_copy.dir
+/Users/alazartegegnework/me433/HW/ME433/build/HW16_copy/CMakeFiles/edit_cache.dir
+/Users/alazartegegnework/me433/HW/ME433/build/HW16_copy/CMakeFiles/rebuild_cache.dir
+/Users/alazartegegnework/me433/HW/ME433/build/HW17/CMakeFiles/Pico_final.dir
+/Users/alazartegegnework/me433/HW/ME433/build/HW17/CMakeFiles/edit_cache.dir
+/Users/alazartegegnework/me433/HW/ME433/build/HW17/CMakeFiles/rebuild_cache.dir

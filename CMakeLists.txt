@@ -28,4 +28,7 @@ add_subdirectory(HW12)
 
 
 add_subdirectory(HW16)
+add_subdirectory(HW16_copy)
+
+add_subdirectory(HW17)
 

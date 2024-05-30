@@ -73,6 +73,8 @@ all: HW7/all
 all: HW9/all
 all: HW12/all
 all: HW16/all
+all: HW16_copy/all
+all: HW17/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -86,6 +88,8 @@ preinstall: HW7/preinstall
 preinstall: HW9/preinstall
 preinstall: HW12/preinstall
 preinstall: HW16/preinstall
+preinstall: HW16_copy/preinstall
+preinstall: HW17/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -99,6 +103,8 @@ clean: HW7/clean
 clean: HW9/clean
 clean: HW12/clean
 clean: HW16/clean
+clean: HW16_copy/clean
+clean: HW17/clean
 .PHONY : clean
 
 #=============================================================================
@@ -130,6 +136,36 @@ HW16/preinstall:
 # Recursive "clean" directory target.
 HW16/clean: HW16/CMakeFiles/Motor_controller.dir/clean
 .PHONY : HW16/clean
+
+#=============================================================================
+# Directory level rules for directory HW16_copy
+
+# Recursive "all" directory target.
+HW16_copy/all: HW16_copy/CMakeFiles/Motor_controller_copy.dir/all
+.PHONY : HW16_copy/all
+
+# Recursive "preinstall" directory target.
+HW16_copy/preinstall:
+.PHONY : HW16_copy/preinstall
+
+# Recursive "clean" directory target.
+HW16_copy/clean: HW16_copy/CMakeFiles/Motor_controller_copy.dir/clean
+.PHONY : HW16_copy/clean
+
+#=============================================================================
+# Directory level rules for directory HW17
+
+# Recursive "all" directory target.
+HW17/all: HW17/CMakeFiles/Pico_final.dir/all
+.PHONY : HW17/all
+
+# Recursive "preinstall" directory target.
+HW17/preinstall:
+.PHONY : HW17/preinstall
+
+# Recursive "clean" directory target.
+HW17/clean: HW17/CMakeFiles/Pico_final.dir/clean
+.PHONY : HW17/clean
 
 #=============================================================================
 # Directory level rules for directory HW2
@@ -1718,7 +1754,7 @@ pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean:
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/all
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/depend
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles --progress-num=77 "Built target bs2_default_padded_checksummed_asm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles --progress-num=81 "Built target bs2_default_padded_checksummed_asm"
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1744,7 +1780,7 @@ pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_as
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/all:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/depend
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles --progress-num=46 "Built target PioasmBuild"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles --progress-num=56 "Built target PioasmBuild"
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1797,12 +1833,12 @@ HW2/CMakeFiles/blink.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2
 HW2/CMakeFiles/blink.dir/all: HW2/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f HW2/CMakeFiles/blink.dir/build.make HW2/CMakeFiles/blink.dir/depend
 	$(MAKE) $(MAKESILENT) -f HW2/CMakeFiles/blink.dir/build.make HW2/CMakeFiles/blink.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles --progress-num=69,70,71,72,73,74,75,76 "Built target blink"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles --progress-num=75,76,77,78,79,80 "Built target blink"
 .PHONY : HW2/CMakeFiles/blink.dir/all
 
 # Build rule for subdir invocation for target.
 HW2/CMakeFiles/blink.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HW2/CMakeFiles/blink.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles 0
 .PHONY : HW2/CMakeFiles/blink.dir/rule
@@ -1823,7 +1859,7 @@ HW2/CMakeFiles/blink.dir/clean:
 HW2/CMakeFiles/ELF2UF2Build.dir/all:
 	$(MAKE) $(MAKESILENT) -f HW2/CMakeFiles/ELF2UF2Build.dir/build.make HW2/CMakeFiles/ELF2UF2Build.dir/depend
 	$(MAKE) $(MAKESILENT) -f HW2/CMakeFiles/ELF2UF2Build.dir/build.make HW2/CMakeFiles/ELF2UF2Build.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles --progress-num=23 "Built target ELF2UF2Build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles --progress-num=19 "Built target ELF2UF2Build"
 .PHONY : HW2/CMakeFiles/ELF2UF2Build.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1850,12 +1886,12 @@ HW3/CMakeFiles/CDC_comm.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/
 HW3/CMakeFiles/CDC_comm.dir/all: HW2/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f HW3/CMakeFiles/CDC_comm.dir/build.make HW3/CMakeFiles/CDC_comm.dir/depend
 	$(MAKE) $(MAKESILENT) -f HW3/CMakeFiles/CDC_comm.dir/build.make HW3/CMakeFiles/CDC_comm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target CDC_comm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target CDC_comm"
 .PHONY : HW3/CMakeFiles/CDC_comm.dir/all
 
 # Build rule for subdir invocation for target.
 HW3/CMakeFiles/CDC_comm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HW3/CMakeFiles/CDC_comm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles 0
 .PHONY : HW3/CMakeFiles/CDC_comm.dir/rule
@@ -1877,12 +1913,12 @@ HW4/CMakeFiles/DAC_MCP4912.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFil
 HW4/CMakeFiles/DAC_MCP4912.dir/all: HW2/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f HW4/CMakeFiles/DAC_MCP4912.dir/build.make HW4/CMakeFiles/DAC_MCP4912.dir/depend
 	$(MAKE) $(MAKESILENT) -f HW4/CMakeFiles/DAC_MCP4912.dir/build.make HW4/CMakeFiles/DAC_MCP4912.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles --progress-num=12,13,14,15,16,17,18,19,20,21,22 "Built target DAC_MCP4912"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles --progress-num=10,11,12,13,14,15,16,17,18 "Built target DAC_MCP4912"
 .PHONY : HW4/CMakeFiles/DAC_MCP4912.dir/all
 
 # Build rule for subdir invocation for target.
 HW4/CMakeFiles/DAC_MCP4912.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HW4/CMakeFiles/DAC_MCP4912.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles 0
 .PHONY : HW4/CMakeFiles/DAC_MCP4912.dir/rule
@@ -1904,12 +1940,12 @@ HW5/CMakeFiles/main.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_
 HW5/CMakeFiles/main.dir/all: HW2/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f HW5/CMakeFiles/main.dir/build.make HW5/CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles --progress-num=78,79,80,81,82,83,84,85,86,87,88 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles --progress-num=82,83,84,85,86,87,88,89,90 "Built target main"
 .PHONY : HW5/CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
 HW5/CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HW5/CMakeFiles/main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles 0
 .PHONY : HW5/CMakeFiles/main.dir/rule
@@ -1931,12 +1967,12 @@ HW6/CMakeFiles/main_display.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFi
 HW6/CMakeFiles/main_display.dir/all: HW2/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f HW6/CMakeFiles/main_display.dir/build.make HW6/CMakeFiles/main_display.dir/depend
 	$(MAKE) $(MAKESILENT) -f HW6/CMakeFiles/main_display.dir/build.make HW6/CMakeFiles/main_display.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles --progress-num=89,90,91,92,93,94,95,96,97,98,99,100 "Built target main_display"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles --progress-num=91,92,93,94,95,96,97,98,99,100 "Built target main_display"
 .PHONY : HW6/CMakeFiles/main_display.dir/all
 
 # Build rule for subdir invocation for target.
 HW6/CMakeFiles/main_display.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HW6/CMakeFiles/main_display.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles 0
 .PHONY : HW6/CMakeFiles/main_display.dir/rule
@@ -1958,12 +1994,12 @@ HW7/CMakeFiles/UART_comm.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles
 HW7/CMakeFiles/UART_comm.dir/all: HW2/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f HW7/CMakeFiles/UART_comm.dir/build.make HW7/CMakeFiles/UART_comm.dir/depend
 	$(MAKE) $(MAKESILENT) -f HW7/CMakeFiles/UART_comm.dir/build.make HW7/CMakeFiles/UART_comm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles --progress-num=58,59,60,61,62,63,64,65,66,67,68 "Built target UART_comm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles --progress-num=66,67,68,69,70,71,72,73,74 "Built target UART_comm"
 .PHONY : HW7/CMakeFiles/UART_comm.dir/all
 
 # Build rule for subdir invocation for target.
 HW7/CMakeFiles/UART_comm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HW7/CMakeFiles/UART_comm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles 0
 .PHONY : HW7/CMakeFiles/UART_comm.dir/rule
@@ -1985,12 +2021,12 @@ HW9/CMakeFiles/Pico_to_zero.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFi
 HW9/CMakeFiles/Pico_to_zero.dir/all: HW2/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f HW9/CMakeFiles/Pico_to_zero.dir/build.make HW9/CMakeFiles/Pico_to_zero.dir/depend
 	$(MAKE) $(MAKESILENT) -f HW9/CMakeFiles/Pico_to_zero.dir/build.make HW9/CMakeFiles/Pico_to_zero.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles --progress-num=35,36,37,38,39,40,41,42,43,44,45 "Built target Pico_to_zero"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles --progress-num=47,48,49,50,51,52,53,54,55 "Built target Pico_to_zero"
 .PHONY : HW9/CMakeFiles/Pico_to_zero.dir/all
 
 # Build rule for subdir invocation for target.
 HW9/CMakeFiles/Pico_to_zero.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HW9/CMakeFiles/Pico_to_zero.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles 0
 .PHONY : HW9/CMakeFiles/Pico_to_zero.dir/rule
@@ -2012,12 +2048,12 @@ HW12/CMakeFiles/Servo_control.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMake
 HW12/CMakeFiles/Servo_control.dir/all: HW2/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f HW12/CMakeFiles/Servo_control.dir/build.make HW12/CMakeFiles/Servo_control.dir/depend
 	$(MAKE) $(MAKESILENT) -f HW12/CMakeFiles/Servo_control.dir/build.make HW12/CMakeFiles/Servo_control.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles --progress-num=47,48,49,50,51,52,53,54,55,56,57 "Built target Servo_control"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles --progress-num=57,58,59,60,61,62,63,64,65 "Built target Servo_control"
 .PHONY : HW12/CMakeFiles/Servo_control.dir/all
 
 # Build rule for subdir invocation for target.
 HW12/CMakeFiles/Servo_control.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HW12/CMakeFiles/Servo_control.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles 0
 .PHONY : HW12/CMakeFiles/Servo_control.dir/rule
@@ -2039,12 +2075,12 @@ HW16/CMakeFiles/Motor_controller.dir/all: pico-sdk/src/rp2_common/boot_stage2/CM
 HW16/CMakeFiles/Motor_controller.dir/all: HW2/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f HW16/CMakeFiles/Motor_controller.dir/build.make HW16/CMakeFiles/Motor_controller.dir/depend
 	$(MAKE) $(MAKESILENT) -f HW16/CMakeFiles/Motor_controller.dir/build.make HW16/CMakeFiles/Motor_controller.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles --progress-num=24,25,26,27,28,29,30,31,32,33,34 "Built target Motor_controller"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles --progress-num=20,21,22,23,24,25,26,27,28 "Built target Motor_controller"
 .PHONY : HW16/CMakeFiles/Motor_controller.dir/all
 
 # Build rule for subdir invocation for target.
 HW16/CMakeFiles/Motor_controller.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HW16/CMakeFiles/Motor_controller.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles 0
 .PHONY : HW16/CMakeFiles/Motor_controller.dir/rule
@@ -2057,6 +2093,60 @@ Motor_controller: HW16/CMakeFiles/Motor_controller.dir/rule
 HW16/CMakeFiles/Motor_controller.dir/clean:
 	$(MAKE) $(MAKESILENT) -f HW16/CMakeFiles/Motor_controller.dir/build.make HW16/CMakeFiles/Motor_controller.dir/clean
 .PHONY : HW16/CMakeFiles/Motor_controller.dir/clean
+
+#=============================================================================
+# Target rules for target HW16_copy/CMakeFiles/Motor_controller_copy.dir
+
+# All Build rule for target.
+HW16_copy/CMakeFiles/Motor_controller_copy.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
+HW16_copy/CMakeFiles/Motor_controller_copy.dir/all: HW2/CMakeFiles/ELF2UF2Build.dir/all
+	$(MAKE) $(MAKESILENT) -f HW16_copy/CMakeFiles/Motor_controller_copy.dir/build.make HW16_copy/CMakeFiles/Motor_controller_copy.dir/depend
+	$(MAKE) $(MAKESILENT) -f HW16_copy/CMakeFiles/Motor_controller_copy.dir/build.make HW16_copy/CMakeFiles/Motor_controller_copy.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles --progress-num=29,30,31,32,33,34,35,36,37 "Built target Motor_controller_copy"
+.PHONY : HW16_copy/CMakeFiles/Motor_controller_copy.dir/all
+
+# Build rule for subdir invocation for target.
+HW16_copy/CMakeFiles/Motor_controller_copy.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles 11
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HW16_copy/CMakeFiles/Motor_controller_copy.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles 0
+.PHONY : HW16_copy/CMakeFiles/Motor_controller_copy.dir/rule
+
+# Convenience name for target.
+Motor_controller_copy: HW16_copy/CMakeFiles/Motor_controller_copy.dir/rule
+.PHONY : Motor_controller_copy
+
+# clean rule for target.
+HW16_copy/CMakeFiles/Motor_controller_copy.dir/clean:
+	$(MAKE) $(MAKESILENT) -f HW16_copy/CMakeFiles/Motor_controller_copy.dir/build.make HW16_copy/CMakeFiles/Motor_controller_copy.dir/clean
+.PHONY : HW16_copy/CMakeFiles/Motor_controller_copy.dir/clean
+
+#=============================================================================
+# Target rules for target HW17/CMakeFiles/Pico_final.dir
+
+# All Build rule for target.
+HW17/CMakeFiles/Pico_final.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
+HW17/CMakeFiles/Pico_final.dir/all: HW2/CMakeFiles/ELF2UF2Build.dir/all
+	$(MAKE) $(MAKESILENT) -f HW17/CMakeFiles/Pico_final.dir/build.make HW17/CMakeFiles/Pico_final.dir/depend
+	$(MAKE) $(MAKESILENT) -f HW17/CMakeFiles/Pico_final.dir/build.make HW17/CMakeFiles/Pico_final.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles --progress-num=38,39,40,41,42,43,44,45,46 "Built target Pico_final"
+.PHONY : HW17/CMakeFiles/Pico_final.dir/all
+
+# Build rule for subdir invocation for target.
+HW17/CMakeFiles/Pico_final.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles 11
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HW17/CMakeFiles/Pico_final.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alazartegegnework/me433/HW/ME433/build/CMakeFiles 0
+.PHONY : HW17/CMakeFiles/Pico_final.dir/rule
+
+# Convenience name for target.
+Pico_final: HW17/CMakeFiles/Pico_final.dir/rule
+.PHONY : Pico_final
+
+# clean rule for target.
+HW17/CMakeFiles/Pico_final.dir/clean:
+	$(MAKE) $(MAKESILENT) -f HW17/CMakeFiles/Pico_final.dir/build.make HW17/CMakeFiles/Pico_final.dir/clean
+.PHONY : HW17/CMakeFiles/Pico_final.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

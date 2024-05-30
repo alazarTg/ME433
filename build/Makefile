@@ -311,6 +311,32 @@ Motor_controller/fast:
 	$(MAKE) $(MAKESILENT) -f HW16/CMakeFiles/Motor_controller.dir/build.make HW16/CMakeFiles/Motor_controller.dir/build
 .PHONY : Motor_controller/fast
 
+#=============================================================================
+# Target rules for targets named Motor_controller_copy
+
+# Build rule for target.
+Motor_controller_copy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Motor_controller_copy
+.PHONY : Motor_controller_copy
+
+# fast build rule for target.
+Motor_controller_copy/fast:
+	$(MAKE) $(MAKESILENT) -f HW16_copy/CMakeFiles/Motor_controller_copy.dir/build.make HW16_copy/CMakeFiles/Motor_controller_copy.dir/build
+.PHONY : Motor_controller_copy/fast
+
+#=============================================================================
+# Target rules for targets named Pico_final
+
+# Build rule for target.
+Pico_final: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Pico_final
+.PHONY : Pico_final
+
+# fast build rule for target.
+Pico_final/fast:
+	$(MAKE) $(MAKESILENT) -f HW17/CMakeFiles/Pico_final.dir/build.make HW17/CMakeFiles/Pico_final.dir/build
+.PHONY : Pico_final/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -327,6 +353,8 @@ help:
 	@echo "... CDC_comm"
 	@echo "... DAC_MCP4912"
 	@echo "... Motor_controller"
+	@echo "... Motor_controller_copy"
+	@echo "... Pico_final"
 	@echo "... Pico_to_zero"
 	@echo "... Servo_control"
 	@echo "... UART_comm"
